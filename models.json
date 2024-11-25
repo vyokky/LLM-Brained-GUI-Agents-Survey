@@ -49,7 +49,7 @@
     },
     {
         "Name": "MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "September 2024",
         "Paper_Url": "http://arxiv.org/abs/2409.14818v2",
         "Highlight": "Mobile-specific pretraining tasks that enhance intra- and inter-UI understanding, with a uniquely large and graph-structured Chinese UI dataset (Mobile3M)",
@@ -65,7 +65,7 @@
     },
     {
         "Name": "DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.11896v1",
         "Highlight": "Offline-to-online reinforcement learning, bridging gaps in static and dynamic environments",
@@ -73,7 +73,7 @@
     },
     {
         "Name": "Visual Grounding for User Interfaces",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "June 2024",
         "Paper_Url": "https://aclanthology.org/2024.naacl-industry.9",
         "Highlight": "Unifies detection and grounding tasks through layout-guided contrastive learning",
@@ -121,7 +121,7 @@
     },
     {
         "Name": "VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "June 2024",
         "Paper_Url": "https://arxiv.org/abs/2406.14056",
         "Highlight": "Minimizes hallucinations in GUI comprehension using image-centric fine-tuning approach, balancing text and visual content",
@@ -137,7 +137,7 @@
     },
     {
         "Name": "UINav: A Practical Approach to Train On-Device Automation Agents",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "December 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.10170v4",
         "Highlight": "Macro action framework and error-driven demonstration collection process enable robust performance with small, efficient models",
@@ -145,7 +145,7 @@
     },
     {
         "Name": "ScreenAgent: A Vision Language Model-driven Computer Control Agent",
-        "Platform": "Linux and Windows desktop",
+        "Platform": "Linux and Windows Computer",
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.07945v1",
         "Highlight": "Comprehensive pipeline of planning, acting, and reflecting to handle real computer screen operations autonomously",
@@ -153,7 +153,7 @@
     },
     {
         "Name": "Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API",
-        "Platform": "Desktop",
+        "Platform": "Computer",
         "Date": "October 2023",
         "Paper_Url": "http://arxiv.org/abs/2310.04716v1",
         "Highlight": "Incorporates reinforcement learning with environmental feedback for structured and goal-oriented tasks",
@@ -161,7 +161,7 @@
     },
     {
         "Name": "CogAgent: A Visual Language Model for GUI Agents",
-        "Platform": "Mobile and desktop",
+        "Platform": "Mobile and Computer",
         "Date": "December 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.08914v2",
         "Highlight": "Innovatively uses policy gradients to improve spatial decoding in the pixel-to-sequence paradigm",
@@ -185,7 +185,7 @@
     },
     {
         "Name": "Ferret-UI 2: Mastering Universal User Interface Understanding Across Platforms",
-        "Platform": "Mobile, desktop, and tablet UIs",
+        "Platform": "Mobile, Computer, and tablet UIs",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.18967v1",
         "Highlight": "Unified representation of UIs and infographics, combining visual and textual elements",
@@ -201,7 +201,7 @@
     },
     {
         "Name": "OmniParser for Pure Vision Based GUI Agent",
-        "Platform": "Mobile, desktop, and webpage",
+        "Platform": "Mobile, Computer, and Web",
         "Date": "August 2024",
         "Paper_Url": "https://arxiv.org/abs/2408.00203",
         "Highlight": "Introduces a vision-only screen parsing framework, enabling general UI understanding without reliance on external information",
@@ -209,7 +209,7 @@
     },
     {
         "Name": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
-        "Platform": "Websites, desktops, and mobile phones",
+        "Platform": "Websites, Computers, and mobile phones",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.23218v1",
         "Highlight": "Interleaved Vision-Language-Action (VLA) approach allows seamless navigation, grounding, and understanding of GUI environments",

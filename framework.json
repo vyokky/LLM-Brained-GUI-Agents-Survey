@@ -153,7 +153,7 @@
     },
     {
         "Name": "VisionTasker: Mobile Task Automation Using Vision Based UI Understanding and LLM Task Planning",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "December 18, 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.11190v2",
         "Highlight": "Vision-based UI understanding approach, which allows it to interpret UI semantics directly from screenshots without view hierarchy dependencies",
@@ -161,7 +161,7 @@
     },
     {
         "Name": "DroidBot-GPT: GPT-powered UI Automation for Android",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "April 14th, 2023.",
         "Paper_Url": "http://arxiv.org/abs/2304.07061v5",
         "Highlight": "Automates Android applications without modifications to either the app or the model",
@@ -169,7 +169,7 @@
     },
     {
         "Name": "CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "February 19, 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.11941v3",
         "Highlight": "Its dual approach of Comprehensive Environment Perception and Conditional Action Prediction",
@@ -177,7 +177,7 @@
     },
     {
         "Name": "You Only Look at Screens: Multimodal Chain-of-Action Agents",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "September 2023",
         "Paper_Url": "http://arxiv.org/abs/2309.11436v4",
         "Highlight": "Its direct interaction with GUI elements. Its chain-of-action mechanism enables it to leverage both past and planned actions",
@@ -185,7 +185,7 @@
     },
     {
         "Name": "GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation",
-        "Platform": "Mobile iOS and Android",
+        "Platform": "IOS and Android",
         "Date": "November 13th, 2023",
         "Paper_Url": "http://arxiv.org/abs/2311.07562v1",
         "Highlight": "Using set-of-mark prompting with GPT-4V for precise GUI navigation on smartphones",
@@ -193,7 +193,7 @@
     },
     {
         "Name": "AppAgent: Multimodal Agents as Smartphone Users",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "December 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.13771v2",
         "Highlight": "Its ability to perform tasks on any smartphone app using a human-like interaction method",
@@ -201,7 +201,7 @@
     },
     {
         "Name": "AppAgent v2: Advanced Agent for Flexible Mobile Interactions",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "August 2024",
         "Paper_Url": "http://arxiv.org/abs/2408.11824v3",
         "Highlight": "Enhances adaptability and precision in mobile environments by combining structured data parsing with visual features",
@@ -209,7 +209,7 @@
     },
     {
         "Name": "ScreenAgent: A Vision Language Model-driven Computer Control Agent",
-        "Platform": "Linux and Windows desktop",
+        "Platform": "Linux and Windows",
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.07945v1",
         "Highlight": "Integrated planning-acting-reflecting pipeline that simulates a continuous thought process",
@@ -217,7 +217,7 @@
     },
     {
         "Name": "AutoDroid: LLM-powered Task Automation in Android",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "August 2023",
         "Paper_Url": "http://arxiv.org/abs/2308.15272v4",
         "Highlight": "Its use of app-specific knowledge and a multi-granularity query optimization module to reduce the computational cost",
@@ -225,7 +225,7 @@
     },
     {
         "Name": "Android in the Zoo: Chain-of-Action-Thought for GUI Agents",
-        "Platform": "Android mobile devices",
+        "Platform": "Android",
         "Date": "March 2024",
         "Paper_Url": "http://arxiv.org/abs/2403.02713v2",
         "Highlight": "The integration of a chain-of-action-thought process, which explicitly maps each action to screen descriptions, reasoning steps, and anticipated outcomes",
@@ -233,7 +233,7 @@
     },
     {
         "Name": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "January 2024",
         "Paper_Url": "http://arxiv.org/abs/2401.16158v2",
         "Highlight": "Vision-centric approach that eliminates dependency on system-specific data",
@@ -241,7 +241,7 @@
     },
     {
         "Name": "Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration",
-        "Platform": "Mobile Android OS and Harmony OS",
+        "Platform": "Android and Harmony",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.01014v1",
         "Highlight": "Multi-agent architecture enhances task navigation for long-sequence operations",
@@ -249,7 +249,7 @@
     },
     {
         "Name": "MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "July 2024",
         "Paper_Url": "http://arxiv.org/abs/2407.03913v1",
         "Highlight": "Code-combined tool formulation method and double-layer planning mechanism for collaborative task execution",
@@ -257,7 +257,7 @@
     },
     {
         "Name": "Lightweight Multi-Modal Android App Control",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "October 2024",
         "Paper_Url": "https://arxiv.org/abs/2410.17883",
         "Highlight": "Balances computational efficiency and natural language understanding",
@@ -265,7 +265,7 @@
     },
     {
         "Name": "MobA: A Two-Level Agent System for Efficient Mobile Task Automation",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.13757v1",
         "Highlight": "Two-level agent system that separates task planning and execution into two specialized agents",
@@ -273,7 +273,7 @@
     },
     {
         "Name": "UFO: A UI-Focused Agent for Windows OS Interaction",
-        "Platform": "Windows computer",
+        "Platform": "Windows",
         "Date": "February 2024",
         "Paper_Url": "https://arxiv.org/abs/2402.07939",
         "Highlight": "Its dual-agent system that seamlessly navigates and interacts with multiple applications to fulfill complex user requests in natural language on Windows OS",
@@ -281,7 +281,7 @@
     },
     {
         "Name": "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement",
-        "Platform": "Linux and MacOS computer",
+        "Platform": "Linux and MacOS",
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.07456v2",
         "Highlight": "Self-directed learning capability, allowing it to adapt to new applications by autonomously generating and refining tools",
@@ -289,7 +289,7 @@
     },
     {
         "Name": "Cradle: Empowering Foundation Agents Towards General Computer Control",
-        "Platform": "Windows computer",
+        "Platform": "Windows",
         "Date": "March 2024",
         "Paper_Url": "http://arxiv.org/abs/2403.03186v3",
         "Highlight": "Its generalizability across various digital environments, allowing it to operate without relying on internal APIs",
@@ -297,7 +297,7 @@
     },
     {
         "Name": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
-        "Platform": "Ubuntu and Windows computer",
+        "Platform": "Ubuntu and Windows",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.08164v1",
         "Highlight": "Experience-augmented hierarchical planning",
@@ -305,7 +305,7 @@
     },
     {
         "Name": "GUI Action Narrator: Where and When Did That Action Take Place?",
-        "Platform": "Windows computer",
+        "Platform": "Windows",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.13719v1",
         "Highlight": "Uses the cursor as a focal point to improve understanding of high-resolution GUI actions",
@@ -321,7 +321,7 @@
     },
     {
         "Name": "AutoGLM: Autonomous Foundation Agents for GUIs",
-        "Platform": "Web and Mobile Android",
+        "Platform": "Web and Android",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2411.00820v1",
         "Highlight": "Self-evolving online curriculum RL framework, which enables continuous improvement by interacting with real-world environments",
@@ -329,7 +329,7 @@
     },
     {
         "Name": "TinyClick: Single-Turn Agent for Empowering GUI Automation",
-        "Platform": "Web, Mobile, and Windows platforms",
+        "Platform": "Web, Mobile, and Windows",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.11871v2",
         "Highlight": "Compact size (0.27B parameters) with high performance",
@@ -337,7 +337,7 @@
     },
     {
         "Name": "OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning",
-        "Platform": "Desktop and Mobile",
+        "Platform": "Computer and Mobile",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.18963v1",
         "Highlight": "Ability to adapt to real-time feedback and dynamically adjust its actions",
@@ -345,7 +345,7 @@
     },
     {
         "Name": "AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant",
-        "Platform": "Desktop and mobile environments",
+        "Platform": "Computer and Mobile",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.18603v1",
         "Highlight": "Dynamically integrate a wide variety of heterogeneous agents, enabling both specialized and generalist capabilities",
@@ -353,7 +353,7 @@
     },
     {
         "Name": "MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot",
-        "Platform": "Windows OS Desktop, mobile applications, and game environments",
+        "Platform": "Windows, Mobile applications, and game environments",
         "Date": "April 2024",
         "Paper_Url": "http://arxiv.org/abs/2404.18074v2",
         "Highlight": "Collaborative multi-agent architecture where agents specialize in specific tasks",

@@ -25,7 +25,7 @@
     },
     {
         "Name": "VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "June 2024",
         "Paper_Url": "https://arxiv.org/abs/2406.14056",
         "Highlight": "Prioritizes visual content to reduce inaccuracies",
@@ -33,7 +33,7 @@
     },
     {
         "Name": "Rico: A Mobile App Dataset for Building Data-Driven Design Applications",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "October 2017",
         "Paper_Url": "https://doi.org/10.1145/3126594.3126651",
         "Highlight": "Comprehensive dataset for mobile UI design, interaction modeling, layout generation",
@@ -41,7 +41,7 @@
     },
     {
         "Name": "Mapping Natural Language Instructions to Mobile UI Action Sequences",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "May 2020",
         "Paper_Url": "http://arxiv.org/abs/2005.03776v2",
         "Highlight": "Pioneering method for grounding natural language instructions to executable mobile UI actions",
@@ -49,7 +49,7 @@
     },
     {
         "Name": "A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "February 2022",
         "Paper_Url": "http://arxiv.org/abs/2202.02312v3",
         "Highlight": "Task feasibility prediction for interactive GUI in mobile apps",
@@ -57,7 +57,7 @@
     },
     {
         "Name": "META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "May 2022",
         "Paper_Url": "http://arxiv.org/abs/2205.11029v2",
         "Highlight": "Task-oriented dialogue system for mobile GUI without relying on back-end APIs",
@@ -65,7 +65,7 @@
     },
     {
         "Name": "Android in the Wild: A Large-Scale Dataset for Android Device Control",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "July 2023",
         "Paper_Url": "http://arxiv.org/abs/2307.10088v2",
         "Highlight": "Large-scale dataset for device control research with extensive app and UI diversity",
@@ -73,7 +73,7 @@
     },
     {
         "Name": "GUI Odyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.08451v1",
         "Highlight": "Focuses on cross-app navigation tasks on mobile devices",
@@ -81,7 +81,7 @@
     },
     {
         "Name": "AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "July 2024",
         "Paper_Url": "http://arxiv.org/abs/2407.17490v1",
         "Highlight": "Multi-level, large-scale annotations supporting complex mobile GUI tasks",
@@ -89,7 +89,7 @@
     },
     {
         "Name": "Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs",
-        "Platform": "iOS, Android Mobile",
+        "Platform": "iOS, Android",
         "Date": "April 2024",
         "Paper_Url": "http://arxiv.org/abs/2404.05719v1",
         "Highlight": "Benchmark for UI-centric tasks with adjustable screen aspect ratios",
@@ -97,7 +97,7 @@
     },
     {
         "Name": "Android in the Zoo: Chain-of-Action-Thought for GUI Agents",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "March 2024",
         "Paper_Url": "http://arxiv.org/abs/2403.02713v2",
         "Highlight": "Structured \"Chain-of-Action-Thought\" enhancing GUI navigation",
@@ -105,7 +105,7 @@
     },
     {
         "Name": "Octo-planner: On-device Language Model for Planner-Action Agents",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.18082v1",
         "Highlight": "Optimized for task planning with GUI actions",
@@ -121,7 +121,7 @@
     },
     {
         "Name": "MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "September 2024",
         "Paper_Url": "http://arxiv.org/abs/2409.14818v2",
         "Highlight": "Large-scale Chinese mobile GUI dataset with unique navigation graph",
@@ -129,7 +129,7 @@
     },
     {
         "Name": "AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.24024v2",
         "Highlight": "XML-based interaction data with unified action space",
@@ -137,7 +137,7 @@
     },
     {
         "Name": "MobileViews: A Large-Scale Mobile GUI Dataset",
-        "Platform": "Android Mobile",
+        "Platform": "Android",
         "Date": "September 2024",
         "Paper_Url": "http://arxiv.org/abs/2409.14337v2",
         "Highlight": "Largest open-source mobile screen dataset",
@@ -145,7 +145,7 @@
     },
     {
         "Name": "ScreenAgent: A Vision Language Model-driven Computer Control Agent",
-        "Platform": "Linux, Windows OS",
+        "Platform": "Linux, Windows",
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.07945v1",
         "Highlight": "VLM-based agent across multiple desktop environments",
@@ -153,7 +153,7 @@
     },
     {
         "Name": "VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents",
-        "Platform": "Android Mobile, Web",
+        "Platform": "Android, Web",
         "Date": "August 2024",
         "Paper_Url": "http://arxiv.org/abs/2408.06327v1",
         "Highlight": "Systematic evaluation of VLM as a visual foundation agent across multiple scenarios",
@@ -161,7 +161,7 @@
     },
     {
         "Name": "GUICourse: From General Vision Language Models to Versatile GUI Agents",
-        "Platform": "Android Mobile, Web",
+        "Platform": "Android, Web",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.11317v1",
         "Highlight": "Dataset suite for enhancing VLM GUI navigation on web and mobile platforms",
@@ -169,7 +169,7 @@
     },
     {
         "Name": "GUI-WORLD: A Dataset for GUI-oriented Multimodal LLM-based Agents",
-        "Platform": "OS, Mobile, Web, XR",
+        "Platform": "Computer, Mobile, Web, XR",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.10819v1",
         "Highlight": "Designed for dynamic, sequential GUI tasks with video data",
@@ -177,7 +177,7 @@
     },
     {
         "Name": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
-        "Platform": "Android, iOS, Desktop/Web",
+        "Platform": "Android, iOS, Computer, Web",
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.04615v3",
         "Highlight": "Comprehensive pretraining and fine-tuning for GUI tasks across platforms",
@@ -185,7 +185,7 @@
     },
     {
         "Name": "OmniParser for Pure Vision Based GUI Agent",
-        "Platform": "Web, Desktop, Mobile",
+        "Platform": "Web, Computer, Mobile",
         "Date": "August 2024",
         "Paper_Url": "http://arxiv.org/abs/2408.00203v1",
         "Highlight": "Vision-based parsing of UI screenshots into structured elements",
@@ -193,7 +193,7 @@
     },
     {
         "Name": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
-        "Platform": "Web, Android Mobile",
+        "Platform": "Web, Android",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.05243v1",
         "Highlight": "Largest dataset for GUI visual grounding",

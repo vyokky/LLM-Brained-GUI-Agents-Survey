@@ -257,7 +257,7 @@
     },
     {
         "Name": "LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "April 2024",
         "Paper_Url": "http://arxiv.org/abs/2404.16054v2",
         "Highlight": "Enables faithful and scalable evaluations for mobile UI task automation by matching task execution traces against annotated essential states.",
@@ -265,7 +265,7 @@
     },
     {
         "Name": "MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.08184v1",
         "Highlight": "Provides a fully autonomous evaluation process on real Android devices with flexibility in judging success conditions across multiple paths to completion.",
@@ -361,7 +361,7 @@
     },
     {
         "Name": "Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding",
-        "Platform": "Windows Platform",
+        "Platform": "Windows",
         "Date": "June 2024",
         "Paper_Url": "http://arxiv.org/abs/2406.19263v2",
         "Highlight": "The first benchmark focused on task-oriented desktop GUI automation.",
@@ -369,7 +369,7 @@
     },
     {
         "Name": "AgentStudio: A Toolkit for Building General Virtual Agents",
-        "Platform": "Mobile, Web, and Operating Systems",
+        "Platform": "Mobile, Web, and Computer",
         "Date": "March 2024",
         "Paper_Url": "http://arxiv.org/abs/2403.17918v2",
         "Highlight": "Evaluates GUI screen readers' ability to describe both content and layout information.",

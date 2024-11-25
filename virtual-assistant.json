@@ -1,7 +1,7 @@
 [
   {
     "Name": "Proagent: From robotic process automation to agentic process automation",
-    "Platform": "Web and Desktop",
+    "Platform": "Web and Computer",
     "Date": "November 2023",
     "Paper_Url": "https://arxiv.org/abs/2311.10751",
     "Highlight": "Introduces dynamic workflows where agents interpret and execute tasks flexibly, surpassing traditional RPA systems.",
@@ -9,7 +9,7 @@
   },
   {
     "Name": "Intelligent agents with llm-based process automation",
-    "Platform": "Mobile (Android)",
+    "Platform": "Android",
     "Date": "August 2024",
     "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3637528.3671646",
     "Highlight": "Integrates LLM reasoning capabilities with a modular design that supports task decomposition, object detection, and robust action prediction in GUI environments.",
@@ -17,7 +17,7 @@
   },
   {
     "Name": "VizAbility: Enhancing Chart Accessibility with LLM-based Conversational Interaction",
-    "Platform": "Desktop",
+    "Platform": "Computer",
     "Date": "October 2024",
     "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3654777.3676414",
     "Highlight": "Integrates structured chart navigation with LLM-powered conversational capabilities, enabling visually impaired users to query in natural language.",
@@ -25,7 +25,7 @@
   },
   {
     "Name": "GPTVoiceTasker: LLM-powered virtual assistant for smartphone",
-    "Platform": "Mobile (Android)",
+    "Platform": "Android",
     "Date": "January 2024",
     "Paper_Url": "https://arxiv.org/abs/2401.14268",
     "Highlight": "Integrates LLMs for natural command interpretation and real-time GUI interactions, using a graph-based local database to record and replicate interactions.",
@@ -33,7 +33,7 @@
   },
   {
     "Name": "AutoTask: Executing Arbitrary Voice Commands by Exploring and Learning from Mobile GUI",
-    "Platform": "Mobile (Android)",
+    "Platform": "Android",
     "Date": "December 2023",
     "Paper_Url": "https://arxiv.org/abs/2312.16062",
     "Highlight": "Operates without predefined scripts or configurations, autonomously exploring GUI environments.",
@@ -49,7 +49,7 @@
   },
   {
     "Name": "PromptRPA: Generating Robotic Process Automation on Smartphones from Textual Prompts",
-    "Platform": "Mobile (Android)",
+    "Platform": "Android",
     "Date": "April 2024",
     "Paper_Url": "https://arxiv.org/abs/2404.02475",
     "Highlight": "Integrates user feedback loops for continuous improvement, addressing interface evolution and task variability.",
@@ -57,7 +57,7 @@
   },
   {
     "Name": "EasyAsk: An In-App Contextual Tutorial Search Assistant for Older Adults with Voice and Touch Inputs",
-    "Platform": "Mobile (Android)",
+    "Platform": "Android",
     "Date": "September 2024",
     "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3678516",
     "Highlight": "Combines voice and touch inputs, supplementing incomplete or ambiguous queries with in-app contextual information.",
@@ -65,7 +65,7 @@
   },
   {
     "Name": "OpenAdapt: Open Source Generative Process Automation",
-    "Platform": "Desktop",
+    "Platform": "Computer",
     "Date": "June 2023",
     "Paper_Url": "/",
     "Highlight": "Learns task automation by observing user interactions, eliminating manual scripting.",
@@ -73,7 +73,7 @@
   },
   {
     "Name": "Introduction to AgentSea Platform",
-    "Platform": "Desktop and Web",
+    "Platform": "Computer and Web",
     "Date": "August 2022",
     "Paper_Url": "/",
     "Highlight": "Offers a modular toolkit adhering to the UNIX philosophy, allowing developers to create custom AI agents for diverse GUI environments.",
@@ -81,7 +81,7 @@
   },
   {
     "Name": "Open interpreter: A natural language interface for computers",
-    "Platform": "Desktop, Web, Mobile (Android)",
+    "Platform": "Computer, Web, Android",
     "Date": "October 2024",
     "Paper_Url": "/",
     "Highlight": "Executes code locally, providing full access to system resources and libraries, overcoming limitations of cloud-based services.",

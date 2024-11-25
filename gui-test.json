@@ -17,7 +17,7 @@
     },
     {
         "Name": "Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "October 2023",
         "Paper_Url": "http://arxiv.org/abs/2310.15780v1",
         "Highlight": "Formulates GUI testing as a Q&A task, utilizing LLM capabilities to provide human-like interaction.",
@@ -25,7 +25,7 @@
     },
     {
         "Name": "Intent-driven mobile gui testing with autonomoufs large language model agentsT",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "May 2024",
         "Paper_Url": "https://ieeexplore.ieee.org/abstract/document/10638557",
         "Highlight": "Autonomously generates and executes high-level, realistic tasks for Android GUI testing based on app-specific functionalities.",
@@ -33,7 +33,7 @@
     },
     {
         "Name": "AUITestAgent: Automatic Requirements Oriented GUI Function Testing",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "July 2024",
         "Paper_Url": "http://arxiv.org/abs/2407.09018v1",
         "Highlight": "Features dynamic agent organization for step-oriented testing and a multi-source data extraction strategy for precise function verification.",
@@ -41,7 +41,7 @@
     },
     {
         "Name": "Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "July 2024",
         "Paper_Url": "http://arxiv.org/abs/2407.03037v1",
         "Highlight": "Integrates vision-driven prompts and GUI text alignment with vision-language models to enhance understanding of GUI contexts and app logic.",
@@ -57,7 +57,7 @@
     },
     {
         "Name": "Large Language Models for Mobile GUI Text Input Generation: An Empirical Study",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "April 2024",
         "Paper_Url": "http://arxiv.org/abs/2404.08948v1",
         "Highlight": "Demonstrates the effectiveness of various LLMs in generating context-aware text inputs, improving UI test coverage, and identifying previously unreported bugs.",
@@ -65,7 +65,7 @@
     },
     {
         "Name": "Fill in the Blank: Context-aware Automated Text Input Generation for Mobile GUI Testing",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "December 2022",
         "Paper_Url": "http://arxiv.org/abs/2212.04732v1",
         "Highlight": "Formulates text input generation as a cloze-style fill-in-the-blank language task.",
@@ -73,7 +73,7 @@
     },
     {
         "Name": "CrashTranslator: Automatically Reproducing Mobile Application Crashes Directly from Stack Trace",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "October 11, 2023",
         "Paper_Url": "http://arxiv.org/abs/2310.07128v1",
         "Highlight": "Leverages LLMs for iterative GUI navigation and crash reproduction from stack traces, integrating a reinforcement learning-based scoring system to optimize exploration steps.",
@@ -81,7 +81,7 @@
     },
     {
         "Name": "Prompting Is All You Need: Automated Android Bug Replay with Large Language Models",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "June 2023",
         "Paper_Url": "http://arxiv.org/abs/2306.01987v3",
         "Highlight": "Combines prompt engineering with few-shot learning and chain-of-thought reasoning to leverage LLMs for GUI-based tasks.",
@@ -89,7 +89,7 @@
     },
     {
         "Name": "Improving Technical \"How-to\" Query Accuracy with Automated Search Results Verification and Reranking",
-        "Platform": "Mobile Android",
+        "Platform": "Android",
         "Date": "April 2024",
         "Paper_Url": "https://arxiv.org/abs/2404.08860",
         "Highlight": "Features a three-stage process: extracting instructions, executing them in a simulated environment, and reranking search results based on execution outcomes.",
