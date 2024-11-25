@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GUI Research Papers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        th.sortable:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-4">
+        <h1 class="text-center mb-4">GUI Research Papers</h1>
+        <!-- Filters -->
+        <div class="row mb-3">
+            <div class="col-md-3">
+                <label for="taxonomy-select" class="form-label">Taxonomy of GUI Research Papers:</label>
+                <select id="taxonomy-select" class="form-select">
+                    <option value="">All Categories</option>
+                    <option value="survey">Survey</option>
+                    <option value="benchmark">Benchmark</option>
+                    <option value="dataset">Dataset</option>
+                    <option value="framework">Framework</option>
+                    <option value="gui-test">Application: GUI Test</option>
+                    <option value="virtual assistant">Application: Virtual Assistant</option>
+                    <option value="models">Models</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="filter-platform" class="form-label">Filter by Platform:</label>
+                <select id="filter-platform" class="form-select">
+                    <option value="">All Platforms</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="web">Web</option>
+                    <option value="computer">Computer</option>
+                    <option value="cross platform">Cross Platform</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="filter-keyword" class="form-label">Filter by Keyword (Highlight):</label>
+                <input type="text" id="filter-keyword" class="form-control" placeholder="Filter by Keyword">
+            </div>
+            <div class="col-md-3">
+                <button id="reset-filters" class="btn btn-secondary w-100 mt-4">Reset Filters</button>
+            </div>
+        </div>
+        <!-- Papers Table -->
+        <table class="table table-bordered table-striped">
+            <thead id="table-header">
+                <!-- Dynamic Table Headers -->
+            </thead>
+            <tbody id="table-body">
+                <!-- Data Rows (will be dynamically generated) -->
+            </tbody>
+        </table>
+    </div>
+    <script>
+        // Initialize an empty array to hold all data
+        let data = [];
+
+        // List of JSON files and their corresponding categories
+        const jsonFiles = [
+            { file: 'survey.json', category: 'survey' },
+            { file: 'benchmark.json', category: 'benchmark' },
+            { file: 'dataset.json', category: 'dataset' },
+            { file: 'framework.json', category: 'framework' },
+            { file: 'gui-test.json', category: 'gui-test' },
+            { file: 'virtual-assistant.json', category: 'virtual assistant' },
+            { file: 'models.json', category: 'models' }
+        ];
+
+        let currentSort = { column: "Date", ascending: true }; // Default sort configuration
+        let taxonomyFilter = ""; // Current taxonomy filter
+        let keywordFilter = ""; // Current keyword filter
+
+        // Function to load all JSON data
+        async function loadData() {
+            try {
+                // Use Promise.all to load all JSON files concurrently
+                const dataPromises = jsonFiles.map(async (jsonFile) => {
+                    const responseData = await fetchData(jsonFile.file);
+                    responseData.forEach(item => item.Category = jsonFile.category); // Add category field
+                    return responseData;
+                });
+
+                // Wait for all data to be loaded
+                const allData = await Promise.all(dataPromises);
+
+                // Flatten the array of arrays and assign to data
+                data = allData.flat();
+
+                // After data is loaded, initialize the table
+                filterData();
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        // Fetch JSON data
+        async function fetchData(fileName) {
+            const response = await fetch(fileName);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status} while fetching ${fileName}`);
+            }
+            const jsonData = await response.json();
+            return jsonData;
+        }
+
+        // Map Platform for filtering
+        function mapPlatform(platform) {
+            if (!platform) return "";
+
+            const lowerPlatform = platform.toLowerCase();
+
+            const mappingRules = [
+                { keywords: ["android", "linux"], results: ["cross platform", "computer"] },
+                { keywords: ["android", "pc"], results: ["cross platform", "computer"] },
+                { keywords: ["linux", "pc"], results: ["computer"] },
+                { keywords: ["mobile", "android"], results: ["mobile"] },
+                { keywords: ["android"], results: ["mobile"] },
+                { keywords: ["linux"], results: ["computer"] },
+                { keywords: ["pc"], results: ["computer"] },
+                { keywords: ["web"], results: ["web"] },
+                { keywords: ["mobile"], results: ["mobile"] },
+                { keywords: ["general-purpose"], results: ["web", "mobile", "computer", "cross platform"] }
+            ];
+
+            const matchedResults = new Set();
+
+            for (const rule of mappingRules) {
+                if (rule.keywords.every(keyword => lowerPlatform.includes(keyword))) {
+                    rule.results.forEach(result => matchedResults.add(result));
+                }
+            }
+
+            if (matchedResults.size > 0) {
+                return Array.from(matchedResults).join(", ");
+            }
+
+            return lowerPlatform;
+        }
+
+
+        // Update Table
+        function updateTable(filteredData) {
+            const headerRow = ["Name", "Platform", "Date", "Paper_Url", "Highlight", "Code_Url", "Category"]
+                .map(header => {
+                    if (header === "Date") {
+                        // return `<th class="sortable" data-column="Date">Date</th>`;
+                        const arrow = currentSort.column === "Date"
+                            ? (currentSort.ascending ? " ▲" : " ▼")
+                            : ""; // Add arrow
+                        return `<th class="sortable" data-column="Date">Date${arrow}</th>`;
+                    }
+                    return `<th>${header.replace("_Url", " Link")}</th>`;
+                }).join("");
+            document.getElementById("table-header").innerHTML = `<tr>${headerRow}</tr>`;
+
+            const rows = filteredData.map(row => {
+                return `<tr>
+                    ${["Name", "Platform", "Date", "Paper_Url", "Highlight", "Code_Url", "Category"]
+                        .map(header => {
+                            if (header.includes("_Url")) {
+                                const url = row[header];
+                                if (!url || url === "/") return `<td>N/A</td>`;
+                                const linkText = header.startsWith("Paper") ? "Paper Link" : "Code Link";
+                                return `<td><a href="${url}" target="_blank">${linkText}</a></td>`;
+                            }
+                            if (header === "Highlight" && keywordFilter) {
+                                const regex = new RegExp(`(${keywordFilter})`, "gi");
+                                const highlightedText = row[header] ? row[header].replace(regex, "<mark>$1</mark>") : "N/A";
+                                return `<td>${highlightedText}</td>`;
+                            }
+                            return `<td>${row[header] || "N/A"}</td>`;
+                        }).join("")}
+                </tr>`;
+            }).join("");
+
+            document.getElementById("table-body").innerHTML = rows;
+        }
+
+        // Sort Data
+        function sortData(dataArray, column, ascending) {
+            return dataArray.sort((a, b) => {
+                if (!a[column] || !b[column]) return 0;
+                if (column === "Date") {
+                    const dateA = new Date(a[column]);
+                    const dateB = new Date(b[column]);
+                    return ascending ? dateA - dateB : dateB - dateA;
+                }
+                const valueA = a[column].toString().toLowerCase();
+                const valueB = b[column].toString().toLowerCase();
+                if (valueA < valueB) return ascending ? -1 : 1;
+                if (valueA > valueB) return ascending ? 1 : -1;
+                return 0;
+            });
+        }
+
+        // Filter Data
+        function filterData() {
+            const platformFilter = document.getElementById("filter-platform").value.toLowerCase();
+            keywordFilter = document.getElementById("filter-keyword").value.toLowerCase();
+
+            const filtered = data.filter(row => {
+                const categoryMatch = !taxonomyFilter || row.Category === taxonomyFilter;
+                const mappedPlatform = mapPlatform(row.Platform);
+                const platformMatch = !platformFilter || mappedPlatform === platformFilter;
+                const highlightText = row.Highlight ? row.Highlight.toLowerCase() : "";
+                const keywordMatch = !keywordFilter || highlightText.includes(keywordFilter);
+                return categoryMatch && platformMatch && keywordMatch;
+            });
+
+            const sortedData = sortData(filtered, currentSort.column, currentSort.ascending);
+            updateTable(sortedData);
+        }
+
+        // Event Listeners
+        document.getElementById("taxonomy-select").addEventListener("change", event => {
+            taxonomyFilter = event.target.value;
+            filterData();
+        });
+        document.getElementById("filter-platform").addEventListener("change", filterData);
+        document.getElementById("filter-keyword").addEventListener("input", filterData);
+        document.getElementById("reset-filters").addEventListener("click", () => {
+            document.getElementById("taxonomy-select").value = "";
+            document.getElementById("filter-platform").value = "";
+            document.getElementById("filter-keyword").value = "";
+            taxonomyFilter = "";
+            keywordFilter = "";
+            filterData();
+        });
+        document.getElementById("table-header").addEventListener("click", event => {
+            if (event.target.classList.contains("sortable")) {
+                const column = event.target.dataset.column;
+                currentSort.ascending = currentSort.column === column ? !currentSort.ascending : true;
+                currentSort.column = column;
+                filterData();
+            }
+        });
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
