@@ -58,10 +58,8 @@
         </table>
     </div>
     <script>
-        // Initialize an empty array to hold all data
         let data = [];
 
-        // List of JSON files and their corresponding categories
         const jsonFiles = [
             { file: 'survey.json', category: 'survey' },
             { file: 'benchmark.json', category: 'benchmark' },
@@ -72,90 +70,63 @@
             { file: 'models.json', category: 'models' }
         ];
 
-        let currentSort = { column: "Date", ascending: true }; // Default sort configuration
-        let taxonomyFilter = ""; // Current taxonomy filter
-        let keywordFilter = ""; // Current keyword filter
+        let currentSort = { column: "Date", ascending: true };
+        let taxonomyFilter = "";
+        let keywordFilter = "";
 
-        // Function to load all JSON data
         async function loadData() {
             try {
-                // Use Promise.all to load all JSON files concurrently
                 const dataPromises = jsonFiles.map(async (jsonFile) => {
                     const responseData = await fetchData(jsonFile.file);
-                    responseData.forEach(item => item.Category = jsonFile.category); // Add category field
+                    responseData.forEach(item => item.Category = jsonFile.category);
                     return responseData;
                 });
 
-                // Wait for all data to be loaded
                 const allData = await Promise.all(dataPromises);
-
-                // Flatten the array of arrays and assign to data
                 data = allData.flat();
-
-                // After data is loaded, initialize the table
                 filterData();
             } catch (error) {
                 console.error('Error loading data:', error);
             }
         }
 
-        // Fetch JSON data
         async function fetchData(fileName) {
             const response = await fetch(fileName);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status} while fetching ${fileName}`);
             }
-            const jsonData = await response.json();
-            return jsonData;
+            return await response.json();
         }
 
-        // Map Platform for filtering
         function mapPlatform(platform) {
-            if (!platform) return "";
+            if (!platform) return [];
 
             const lowerPlatform = platform.toLowerCase();
 
-            const mappingRules = [
-                { keywords: ["android", "linux"], results: ["cross platform", "computer"] },
-                { keywords: ["android", "pc"], results: ["cross platform", "computer"] },
-                { keywords: ["linux", "pc"], results: ["computer"] },
-                { keywords: ["mobile", "android"], results: ["mobile"] },
-                { keywords: ["android"], results: ["mobile"] },
-                { keywords: ["linux"], results: ["computer"] },
-                { keywords: ["pc"], results: ["computer"] },
-                { keywords: ["web"], results: ["web"] },
-                { keywords: ["mobile"], results: ["mobile"] },
-                { keywords: ["general-purpose"], results: ["web", "mobile", "computer", "cross platform"] }
-            ];
+            let isWeb = false;
+            let isMobile = false;
+            let isComputer = false;
 
-            const matchedResults = new Set();
+            if (lowerPlatform.includes("web") || lowerPlatform.includes("browser")) isWeb = true;
+            if (lowerPlatform.includes("mobile") || lowerPlatform.includes("android") || lowerPlatform.includes("ios") || lowerPlatform.includes("apple")) isMobile = true;
+            if (lowerPlatform.includes("pc") || lowerPlatform.includes("linux") || lowerPlatform.includes("windows") || lowerPlatform.includes("mac") || lowerPlatform.includes("desktop") || lowerPlatform.includes("computer")) isComputer = true;
 
-            for (const rule of mappingRules) {
-                if (rule.keywords.every(keyword => lowerPlatform.includes(keyword))) {
-                    rule.results.forEach(result => matchedResults.add(result));
-                }
-            }
+            const result = new Set();
+            if ((isWeb && isMobile && isComputer) || (isMobile && isComputer) || (isWeb && isComputer)|| (isWeb && isMobile)) result.add("cross platform");
+            if (isWeb) result.add("web");
+            if (isMobile) result.add("mobile");
+            if (isComputer) result.add("computer");
 
-            if (matchedResults.size > 0) {
-                return Array.from(matchedResults).join(", ");
-            }
-
-            return lowerPlatform;
+            return Array.from(result);
         }
 
-
-        // Update Table
         function updateTable(filteredData) {
             const headerRow = ["Name", "Platform", "Date", "Paper_Url", "Highlight", "Code_Url", "Category"]
                 .map(header => {
-                    if (header === "Date") {
-                        // return `<th class="sortable" data-column="Date">Date</th>`;
-                        const arrow = currentSort.column === "Date"
-                            ? (currentSort.ascending ? " ▲" : " ▼")
-                            : ""; // Add arrow
-                        return `<th class="sortable" data-column="Date">Date${arrow}</th>`;
-                    }
-                    return `<th>${header.replace("_Url", " Link")}</th>`;
+                    const arrow = currentSort.column === header
+                        ? (currentSort.ascending ? " ▲" : " ▼")
+                        : "";
+                    return `<th class="sortable" data-column="${header}">${header.replace("_Url", " Link")}${arrow}</th>`;
                 }).join("");
             document.getElementById("table-header").innerHTML = `<tr>${headerRow}</tr>`;
 
@@ -182,24 +153,18 @@
             document.getElementById("table-body").innerHTML = rows;
         }
 
-        // Sort Data
         function sortData(dataArray, column, ascending) {
             return dataArray.sort((a, b) => {
                 if (!a[column] || !b[column]) return 0;
                 if (column === "Date") {
-                    const dateA = new Date(a[column]);
-                    const dateB = new Date(b[column]);
-                    return ascending ? dateA - dateB : dateB - dateA;
+                    return ascending ? new Date(a[column]) - new Date(b[column]) : new Date(b[column]) - new Date(a[column]);
                 }
                 const valueA = a[column].toString().toLowerCase();
                 const valueB = b[column].toString().toLowerCase();
-                if (valueA < valueB) return ascending ? -1 : 1;
-                if (valueA > valueB) return ascending ? 1 : -1;
-                return 0;
+                return ascending ? valueA.localeCompare(valueB) : valueB.localeCompare(valueA);
             });
         }
 
-        // Filter Data
         function filterData() {
             const platformFilter = document.getElementById("filter-platform").value.toLowerCase();
             keywordFilter = document.getElementById("filter-keyword").value.toLowerCase();
@@ -207,9 +172,10 @@
             const filtered = data.filter(row => {
                 const categoryMatch = !taxonomyFilter || row.Category === taxonomyFilter;
                 const mappedPlatform = mapPlatform(row.Platform);
-                const platformMatch = !platformFilter || mappedPlatform === platformFilter;
+                const platformMatch = !platformFilter || mappedPlatform.includes(platformFilter);
                 const highlightText = row.Highlight ? row.Highlight.toLowerCase() : "";
                 const keywordMatch = !keywordFilter || highlightText.includes(keywordFilter);
+
                 return categoryMatch && platformMatch && keywordMatch;
             });
 
@@ -217,7 +183,6 @@
             updateTable(sortedData);
         }
 
-        // Event Listeners
         document.getElementById("taxonomy-select").addEventListener("change", event => {
             taxonomyFilter = event.target.value;
             filterData();
@@ -241,7 +206,6 @@
             }
         });
 
-        // Load data on page load
         loadData();
     </script>
 </body>
