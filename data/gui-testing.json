@@ -1,14 +1,14 @@
 [
     {
         "Name": "Automating GUI-based Software Testing with GPT-3",
-        "Platform": "General-purpose platforms",
+        "Platform": "General",
         "Date": "April 2023",
         "Paper_Url": "https://ieeexplore.ieee.org/abstract/document/10132233",
         "Highlight": "Applies GPT-3\u2019s language understanding capabilities to GUI-based software testing, enabling natural interaction through text-based test case descriptions.",
         "Code_Url": "https://github.com/neuroevolution-ai/SoftwareTestingLanguageModels"
     },
     {
-        "Name": "GUI-Based Software Testing: An Automated Approach Using GPT-4 and Selenium WebDriver",
+        "Name": "GUI-based Software Testing: An Automated Approach Using GPT-4 and Selenium WebDriver",
         "Platform": "Web platforms",
         "Date": "September 2023",
         "Paper_Url": "https://ieeexplore.ieee.org/abstract/document/10298721",
