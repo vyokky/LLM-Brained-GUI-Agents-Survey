@@ -9,9 +9,9 @@ Welcome to the repository accompanying our survey paper:
 
 This repository provides a comprehensive list of research papers and resources on LLM-Brained GUI Agents in the survey.
 
-### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000)
+#### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000)
 
-### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
+#### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
 
 ---
 
