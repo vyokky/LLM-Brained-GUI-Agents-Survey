@@ -14,23 +14,12 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
 
 > **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
 
-#### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000).
-<p align="center">
-  <img src="assets/gui_agent.png" width="800px"/>
-</p>
-
-
-#### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**:
-
+### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000).
 <p align="left">
-  <a href="https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/">
-    <img src="assets/webpage.png" width="500px" alt="Webpage Link"/>
-  </a>
+  <img src="assets/gui_agent.png" width="500px"/>
 </p>
 
----
-
-### Cite Our Work
+#### Cite Our Work
 
 If you find our work useful, please consider citing:
 
@@ -42,6 +31,19 @@ If you find our work useful, please consider citing:
   year={2022}
 }
 ```
+
+
+### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**:
+
+<p align="left">
+  <a href="https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/">
+    <img src="assets/webpage.png" width="500px" alt="Webpage Link"/>
+  </a>
+</p>
+
+The **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)** is a web-based interface that allows you to search and filter through the papers in our survey. You can also view the papers by category, platform, and date.
+
+
 
 ---
 
