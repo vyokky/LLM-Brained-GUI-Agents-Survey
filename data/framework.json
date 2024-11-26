@@ -358,5 +358,21 @@
         "Paper_Url": "http://arxiv.org/abs/2404.18074v2",
         "Highlight": "Collaborative multi-agent architecture where agents specialize in specific tasks",
         "Code_Url": "/"
+    },
+    {
+        "Name": "Auto-Intent",
+        "Platform": "Web",
+        "Date": "October 2024",
+        "Paper_Url": "https://arxiv.org/abs/2410.22552",
+        "Highlight": "Introduces a unique self-exploration strategy to generate semantically diverse intent hints",
+        "Code_Url": ""
+    },
+    {
+        "Name": "AdaptAgent",
+        "Platform": "Web",
+        "Date": "November 2024",
+        "Paper_Url": "https://arxiv.org/abs/2411.13451",
+        "Highlight": "Adapts to unseen tasks with just 1–2 multimodal human demonstrations",
+        "Code_Url": ""
     }
 ]
