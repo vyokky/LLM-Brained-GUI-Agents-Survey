@@ -1,4 +1,6 @@
-# LLM-Brained GUI Agents [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/abs/2202.00000) [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
+# LLM-Brained GUI Agents 
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/abs/2202.00000) [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 
 Welcome to the repository accompanying our survey paper:
 
@@ -36,7 +38,7 @@ If you find our work useful, please consider citing:
 These agents are at the forefront of AI research, aiming to make interactions with graphical user interfaces more natural and efficient.
 
 <p align="center">
-  <img src="assets/gui_agent.png" width="480px"/>
+  <img src="assets/gui_agent.png" width="1000px"/>
 </p>
 
 ---
