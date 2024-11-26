@@ -31,7 +31,7 @@ If you find our work useful, please consider citing:
   year={2022}
 }
 ```
-
+---
 
 ### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**:
 
