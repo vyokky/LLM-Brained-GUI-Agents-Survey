@@ -19,7 +19,7 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
   <img src="assets/gui_agent.png" width="500px"/>
 </p>
 
-### Cite Our Work
+### 📚 Cite Our Work
 
 If you find our work useful, please consider citing:
 
@@ -48,15 +48,15 @@ The **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Su
 ---
 
 
-## Contributing
+## 🙌 Contributing
 
-🤝 **Contributions Welcome!**
+🤝**Contributions Welcome!**
 
 We encourage the community to contribute to this repository. If you have suggestions for new papers, resources, or improvements, please open an issue or submit a pull request.
 
 ---
 
-## Related Repositories
+## 📝 Related Repositories
 
 Here are some other repositories that you might find useful:
 
@@ -67,7 +67,7 @@ Here are some other repositories that you might find useful:
 
 ---
 
-## Support Us
+## 🫶 Support Us
 
 ⭐ **If you find this repository helpful, please condiser to cite our paper and give it a star!**
 
