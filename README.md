@@ -1,14 +1,24 @@
-# LLM-Brained GUI Agents 
+<h1 align="center">
+    Large Language Model-Brained GUI Agents: A Survey
+</h1>
+
+<div align="center">
+
 [![Agent-Powered](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/abs/2202.00000) 
 [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 
-Welcome to the repository accompanying our survey paper:
+</div>
 
-## Large Language Model-Brained GUI Agents: A Survey
+Welcome to the repository accompanying our survey paper on **Large Language Model-Brained GUI Agents**. This repository contains the code for the searchable paper page and the assets used in the paper. **LLM-Brained GUI Agents** are:
 
+> **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
 
 #### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000).
+<p align="center">
+  <img src="assets/gui_agent.png" width="800px"/>
+</p>
+
 
 #### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**:
 
@@ -35,19 +45,6 @@ If you find our work useful, please consider citing:
 
 ---
 
-## What are LLM-Brained GUI Agents?
-
-**LLM-Brained GUI Agents** are:
-
-> **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
-
-These agents are at the forefront of AI research, aiming to make interactions with graphical user interfaces more natural and efficient.
-
-<p align="center">
-  <img src="assets/gui_agent.png" width="1000px"/>
-</p>
-
----
 
 ## Contributing
 
