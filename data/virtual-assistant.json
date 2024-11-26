@@ -1,6 +1,6 @@
 [
   {
-    "Name": "Proagent: From robotic process automation to agentic process automation",
+    "Name": "Proagent: From Robotic Process Automation to Agentic Process Automation",
     "Platform": "Web and Computer",
     "Date": "November 2023",
     "Paper_Url": "https://arxiv.org/abs/2311.10751",
@@ -8,7 +8,7 @@
     "Code_Url": "https://github.com/OpenBMB/ProAgent"
   },
   {
-    "Name": "Intelligent agents with llm-based process automation",
+    "Name": "Intelligent Agents with LLM-based Process Automation",
     "Platform": "Android",
     "Date": "August 2024",
     "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3637528.3671646",
@@ -24,7 +24,7 @@
     "Code_Url": "https://dwr.bc.edu/vizability/"
   },
   {
-    "Name": "GPTVoiceTasker: LLM-powered virtual assistant for smartphone",
+    "Name": "GPTVoiceTasker: LLM-powered Virtual Assistant for Smartphone",
     "Platform": "Android",
     "Date": "January 2024",
     "Paper_Url": "https://arxiv.org/abs/2401.14268",
@@ -80,7 +80,7 @@
     "Code_Url": "https://www.agentsea.ai/"
   },
   {
-    "Name": "Open interpreter: A natural language interface for computers",
+    "Name": "Open Interpreter: A natural language interface for computers",
     "Platform": "Computer, Web, Android",
     "Date": "October 2024",
     "Paper_Url": "/",
@@ -88,7 +88,7 @@
     "Code_Url": "https://github.com/OpenInterpreter/open-interpreter"
   },
   {
-    "Name": "Multion ai: Ai agents that act on your behalf",
+    "Name": "Multion AI: Ai agents that act on your behalf",
     "Platform": "Web",
     "Date": "September 2023",
     "Paper_Url": "/",
