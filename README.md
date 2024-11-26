@@ -13,7 +13,7 @@ This repository provides a comprehensive list of research papers and resources o
 
 #### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
 
-<p align="center">
+<p align="left">
   <a href="https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/">
     <img src="assets/webpage.png" width="500px" alt="Webpage Link"/>
   </a>
