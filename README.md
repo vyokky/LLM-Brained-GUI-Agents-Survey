@@ -1,16 +1,17 @@
 # LLM-Brained GUI Agents 
-
-[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/abs/2202.00000) [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
+[![Agent-Powered](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/abs/2202.00000) 
+[![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 
 Welcome to the repository accompanying our survey paper:
 
 ## Large Language Model-Brained GUI Agents: A Survey
 
-This repository provides a curated list of research papers and resources on LLM-Brained GUI Agents.
+This repository provides a comprehensive list of research papers and resources on LLM-Brained GUI Agents in the survey.
 
 ### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000)
 
-### 🔍 Explore the **[Searchable Paper List](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
+### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
 
 ---
 
