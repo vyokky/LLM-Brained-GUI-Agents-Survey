@@ -8,9 +8,9 @@ Welcome to the repository accompanying our survey paper:
 ## Large Language Model-Brained GUI Agents: A Survey
 
 
-#### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000). Current version: v1.
+#### 📖 Read the Paper: [arXiv:2202.00000](https://arxiv.org/abs/2202.00000).
 
-#### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**, which provide a list of research papers and resources in the survey, as shown below:
+#### 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**:
 
 <p align="left">
   <a href="https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/">
