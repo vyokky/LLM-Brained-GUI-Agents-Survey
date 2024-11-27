@@ -11,7 +11,7 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
 !!! abstract "Definition"
     Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.
 
-## 📖 Read the [Paper:](https://arxiv.org/)
+## 📖 Read the [Paper](https://arxiv.org/)
 
 <h1 align="center">
     <img src="/img/gui_agent.png"/> 

@@ -15,7 +15,7 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
 
 > **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
 
-## 📖 Read the Paper: [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/).
+## 📖 Read the Paper: [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/)
 <p align="left">
   <img src="assets/gui_agent.png" width="500px"/>
 </p>
@@ -34,7 +34,7 @@ If you find our work useful, please consider citing:
 ``` -->
 ---
 
-## 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**:
+## 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
 
 <p align="left">
   <a href="https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/">
