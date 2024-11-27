@@ -1,49 +1,32 @@
-<h1 align="center">
-    Large Language Model-Brained GUI Agents: A Survey
-</h1>
 
-<div align="center">
+# Large Language Model-Brained GUI Agents: A Survey
 
-[![Agent-Powered](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
+[![Repository](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/) 
 [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 [![github](https://img.shields.io/github/stars/microsoft/UFO)](https://github.com/microsoft/UFO)&ensp;
 
-</div>
-
 Welcome to the repository accompanying our survey paper on **Large Language Model-Brained GUI Agents**. This repository contains the code for the searchable paper page and the assets used in the paper. **LLM-Brained GUI Agents** are:
 
-> **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
+!!! abstract "Definition"
+    Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.
 
-## 📖 Read the Paper: [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/).
-<p align="left">
-  <img src="assets/gui_agent.png" width="500px"/>
-</p>
+## 📖 Read the [Paper:](https://arxiv.org/)
 
-<!-- ### 📚 Cite Our Work
+<h1 align="center">
+    <img src="/img/gui_agent.png"/> 
+</h1>
 
-If you find our work useful, please consider citing:
-
-```bibtex
-@article{vyokky2022llm,
-  title={Large Language Model-Brained GUI Agents: A Survey},
-  author={Vyokky, and others},
-  journal={arXiv preprint arXiv:2202.00000},
-  year={2022}
-}
-``` -->
 ---
 
-## 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**:
+## 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
 
-<p align="left">
-  <a href="https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/">
-    <img src="assets/webpage.png" width="500px" alt="Webpage Link"/>
-  </a>
-</p>
+<h1 align="center">
+    <img src="/img/webpage.png"/> 
+</h1>
+
 
 The **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)** is a web-based interface that allows you to search and filter through the papers in our survey. You can also view the papers by category, platform, and date.
-
 
 ---
 
