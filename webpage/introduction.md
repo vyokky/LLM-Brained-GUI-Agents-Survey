@@ -41,7 +41,7 @@ To contribute, follow these steps:
 
 1. Go to the **`survey` (important)** branch of this repository.
 
-1. Find the `documents/docs/survey/data/*.json` file which matches the category of the paper you want to add in the `/data` folder. It should be either `survey`, `framework`, `dataset`, `model`, `benchmark`, `gui-testing`, or `visual-assistant`.
+1. Find the `webpage/data/*.json` file which matches the category of the paper you want to add. It should be either `survey`, `framework`, `dataset`, `model`, `benchmark`, `gui-testing`, or `visual-assistant`.
 
     - `survey`: Papers that provide a survey of the LLM-Powered GUI Agents.
     - `framework`: Papers that introduce a new framework or architecture for LLM-Powered GUI Agents.
