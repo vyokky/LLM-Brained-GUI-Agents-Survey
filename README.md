@@ -7,7 +7,7 @@
 [![Agent-Powered](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/) 
 [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
-[![github](https://img.shields.io/github/stars/microsoft/UFO)](https://github.com/microsoft/UFO)&ensp;
+[![github](https://img.shields.io/github/stars/vyokky/LLM-Brained-GUI-Agents-Survey)](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey)&ensp;
 
 </div>
 
