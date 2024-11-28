@@ -100,3 +100,7 @@ Here are some other repositories that you might find useful:
 ⭐ **If you find this repository helpful, please condiser to cite our paper and give it a star!**
 
 ---
+
+## Note
+If the authors of the paper wish to have their paper removed from the website, please contact 
+chaoyun.zhang@microsoft.com

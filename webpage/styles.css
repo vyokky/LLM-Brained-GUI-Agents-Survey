@@ -35,13 +35,104 @@ h1 {
     letter-spacing: -0.025em;
 }
 
+/* Styles for agent_btn */
+/* Styles for agent_btn */
+.agent_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 16px; /* Match the table's rounded corners */
+    background-color: #ffffff;
+    color: var(--text-primary);
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid var(--border-color);
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center;
+    gap: 1rem; /* Spacing between buttons */
+  }
+  
+  /* Adjust the button size */
+  .agent_btn {
+    display: inline-flex; /* Allow buttons to size based on content */
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem; /* Reduce padding for smaller buttons */
+    border-radius: 8px; /* Adjust corner radius as needed */
+    background-color: #0aade3;
+    color: var(--text-primary);
+    font-size: 0.875rem; /* Smaller font size */
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid var(--border-color);
+  }
+
+  .agent_btn_paper {
+    display: inline-flex; /* Allow buttons to size based on content */
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem; /* Reduce padding for smaller buttons */
+    border-radius: 8px; /* Adjust corner radius as needed */
+    background-color: #196a65;
+    color: #fff;
+    font-size: 1.2rem; /* Smaller font size */
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid var(--border-color);
+  }
+
+  .agent_btn_code {
+    display: inline-flex; /* Allow buttons to size based on content */
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem; /* Reduce padding for smaller buttons */
+    border-radius: 8px; /* Adjust corner radius as needed */
+    background-color: #198754;
+    color: #fff;
+    font-size: 1.2rem; /* Smaller font size */
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid var(--border-color);
+  }
+  
+  /* Hover effect */
+  .agent_btn:hover {
+    background-color: var(--background-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Retain any specific styles for agent_btn-icon */
+  /* Styles for btn-icon inside agent_btn */
+.agent_btn .btn-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1rem; /* Space between icon and text */
+}
+
+.agent_btn .btn-icon svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor; /* Inherit color from parent */
+}
+
 h2 {
     font-size: var(--font-size-xl);
     font-weight: 400;
     color: var(--text-secondary);
     margin-bottom: 2.5rem;
     line-height: 1.6;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -61,6 +152,20 @@ h2 {
     min-height: 100vh;
     transition: all 0.3s;
     background: var(--background-color);
+}
+
+.text-span-gradient {
+    background: var(--Color-Gradient, linear-gradient(90deg, #040cff 0.01%, #0ba5a5 52.55%, #8B18FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-span-gradient-second {
+    background: var(--Color-Gradient, linear-gradient(90deg, #0080a3 0.01%, #0ba5a5 52.55%, #1a4088 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container-fluid {
