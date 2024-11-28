@@ -79,8 +79,13 @@ function parseDate(dateStr) {
         if (!isNaN(month) && !isNaN(year)) {
             return new Date(year, month);
         }
+    } else if (parts.length === 1) {
+        const year = parseInt(parts[0]);
+        if (!isNaN(year)) {
+            return new Date(year, 0); // Assume January if no month is specified
+        }
     }
-    return new Date(0); // fallback for invalid dates
+    return new Date(0); // Fallback for invalid dates
 }
 
 // Function to load papers from JSON files
@@ -115,6 +120,10 @@ async function loadPapers(category = 'all') {
                         data.forEach(paper => {
                             const platformInfo = extractPlatform(paper);
                             platforms.add(platformInfo.category);
+
+                            const parsedDate = parseDate(paper.Date);
+                            paper.DateValue = parsedDate.getTime();
+
                             allPapers.push({
                                 ...paper,
                                 RawPlatform: platformInfo.raw,
@@ -142,6 +151,10 @@ async function loadPapers(category = 'all') {
             return data.map(paper => {
                 const platformInfo = extractPlatform(paper);
                 platforms.add(platformInfo.category);
+
+                const parsedDate = parseDate(paper.Date);
+                paper.DateValue = parsedDate.getTime();
+
                 return {
                     ...paper,
                     RawPlatform: platformInfo.raw,
@@ -193,7 +206,10 @@ function initializeDataTable(data) {
                 className: 'dt-head-left column-platform'
             },
             { 
-                data: 'Date', 
+                data: {
+                    _: 'Date',
+                    sort: 'DateValue'
+                },
                 title: 'Date',
                 className: 'dt-head-left column-date'
             },
@@ -223,33 +239,33 @@ function initializeDataTable(data) {
         ],
         pageLength: 10,
         lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
-        order: [[2, 'desc']], // Sort by date by default
+        order: [[2, 'desc']], // Sort by DateValue
         responsive: true,
-        dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
+        dom: '<"row"<"col-sm-12 col-md-6"B><"col-sm-12 col-md-6"f>>' +
              '<"row"<"col-sm-12"tr>>' +
-             '<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
-             buttons: [
-                {
-                    extend: 'excelHtml5',
-                    text: 'Download Excel',
-                    className: 'btn btn-success me-2',
-                    title: 'LLM-Brained GUI Agents',
-                    exportOptions: {
-                        columns: ':visible'
-                    }
-                },
-                {
-                    extend: 'pdfHtml5',
-                    text: 'Download PDF',
-                    className: 'btn btn-primary',
-                    title: 'LLM-Brained GUI Agents',
-                    orientation: 'landscape',
-                    pageSize: 'A4',
-                    exportOptions: {
-                        columns: ':visible'
-                    }
+             '<"row"<"col-sm-12 col-md-5"l><"col-sm-12 col-md-7"p>>',
+        buttons: [
+            {
+                extend: 'excelHtml5',
+                text: '<i class="fas fa-file-excel me-2"></i>Download Excel',
+                className: 'btn btn-success me-2',
+                title: 'LLM-Brained GUI Agents',
+                exportOptions: {
+                    columns: ':visible'
                 }
-            ],
+            },
+            {
+                extend: 'pdfHtml5',
+                text: '<i class="fas fa-file-pdf me-2"></i>Download PDF',
+                className: 'btn btn-primary',
+                title: 'LLM-Brained GUI Agents',
+                orientation: 'landscape',
+                pageSize: 'A4',
+                exportOptions: {
+                    columns: ':visible'
+                }
+            }
+        ],
         language: {
             search: "Search papers:",
             lengthMenu: "Show _MENU_ papers per page",
@@ -259,7 +275,9 @@ function initializeDataTable(data) {
         }
     });
 
+    // Move the buttons to the custom container
     papersTable.buttons().container().appendTo('#exportButtonsContainer');
+
     // Adjust columns on window resize
     $(window).on('resize', function() {
         papersTable.columns.adjust().responsive.recalc();
