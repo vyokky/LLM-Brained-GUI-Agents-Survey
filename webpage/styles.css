@@ -90,6 +90,13 @@ h1 {
     border: 1px solid var(--border-color);
   }
 
+  .agent_btn_paper:hover {
+    background-color: #196a65;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
   .agent_btn_code {
     display: inline-flex; /* Allow buttons to size based on content */
     align-items: center;
@@ -104,10 +111,17 @@ h1 {
     transition: all 0.2s ease;
     border: 1px solid var(--border-color);
   }
+
+    .agent_btn_code:hover {
+        background-color: #198754;
+        color: #fff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
   
   /* Hover effect */
   .agent_btn:hover {
-    background-color: var(--background-color);
+    background-color: #fff;
     transform: translateY(-2px);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
@@ -128,8 +142,8 @@ h1 {
 
 h2 {
     font-size: var(--font-size-xl);
-    font-weight: 400;
-    color: var(--text-secondary);
+    font-weight: 500;
+    color: var(--primary-color);
     margin-bottom: 2.5rem;
     line-height: 1.6;
     max-width: 1200px;
