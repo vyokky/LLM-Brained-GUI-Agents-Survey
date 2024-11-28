@@ -101,6 +101,8 @@ Here are some other repositories that you might find useful:
 
 ---
 
-## Note
+## ❗️ Note
 If the authors of the paper wish to have their paper removed from the website, please contact 
 chaoyun.zhang@microsoft.com
+
+---
