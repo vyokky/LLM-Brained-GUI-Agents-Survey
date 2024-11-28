@@ -146,7 +146,7 @@
     {
         "Name": "Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents",
         "Platform": "Web",
-        "Date": "August 13, 2024",
+        "Date": "August 2024",
         "Paper_Url": "http://arxiv.org/abs/2408.07199v1",
         "Highlight": "Combination of MCTS-guided search and self-critique mechanisms enables iterative improvement in reasoning and task execution",
         "Code_Url": "https://github.com/sentient-engineering/agent-q"
@@ -154,7 +154,7 @@
     {
         "Name": "VisionTasker: Mobile Task Automation Using Vision Based UI Understanding and LLM Task Planning",
         "Platform": "Android",
-        "Date": "December 18, 2023",
+        "Date": "December 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.11190v2",
         "Highlight": "Vision-based UI understanding approach, which allows it to interpret UI semantics directly from screenshots without view hierarchy dependencies",
         "Code_Url": "https://github.com/AkimotoAyako/VisionTasker"
@@ -162,7 +162,7 @@
     {
         "Name": "DroidBot-GPT: GPT-powered UI Automation for Android",
         "Platform": "Android",
-        "Date": "April 14th, 2023.",
+        "Date": "April 2023.",
         "Paper_Url": "http://arxiv.org/abs/2304.07061v5",
         "Highlight": "Automates Android applications without modifications to either the app or the model",
         "Code_Url": "https://github.com/MobileLLM/DroidBot-GPT"
@@ -170,7 +170,7 @@
     {
         "Name": "CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation",
         "Platform": "Android",
-        "Date": "February 19, 2024",
+        "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.11941v3",
         "Highlight": "Its dual approach of Comprehensive Environment Perception and Conditional Action Prediction",
         "Code_Url": "https://github.com/xbmxb/CoCo-Agent"
@@ -186,7 +186,7 @@
     {
         "Name": "GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation",
         "Platform": "IOS and Android",
-        "Date": "November 13th, 2023",
+        "Date": "November 2023",
         "Paper_Url": "http://arxiv.org/abs/2311.07562v1",
         "Highlight": "Using set-of-mark prompting with GPT-4V for precise GUI navigation on smartphones",
         "Code_Url": "https://github.com/zzxslp/MM-Navigator"
