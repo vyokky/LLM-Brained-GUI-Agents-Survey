@@ -106,7 +106,7 @@
     {
         "Name": "WebVLN: Vision-and-Language Navigation on Websites",
         "Platform": "Web",
-        "Date": "December 25, 2023",
+        "Date": "December 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.15820v1",
         "Highlight": "Combines navigation and question-answering on shopping sites, integrating visual and textual content for unified web interaction evaluation.",
         "Code_Url": "https://github.com/WebVLN/WebVLN"
@@ -194,7 +194,7 @@
     {
         "Name": "Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction",
         "Platform": "Android",
-        "Date": "May 14, 2023",
+        "Date": "May 2023",
         "Paper_Url": "http://arxiv.org/abs/2305.08144v4",
         "Highlight": "Comprehensive toolkit for Android GUI benchmarks to enable controlled evaluations of real-world app interactions.",
         "Code_Url": "https://github.com/X-LANCE/Mobile-Env"
@@ -234,7 +234,7 @@
     {
         "Name": "Android in the Wild: A Large-Scale Dataset for Android Device Control",
         "Platform": "Android",
-        "Date": "July 19, 2023",
+        "Date": "July 2023",
         "Paper_Url": "http://arxiv.org/abs/2307.10088v2",
         "Highlight": "A large-scale dataset inspired by PIXELHELP, covering diverse Android interactions.",
         "Code_Url": "https://github.com/google-research/google-research/tree/master/android_in_the_wild"

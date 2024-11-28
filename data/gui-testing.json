@@ -74,7 +74,7 @@
     {
         "Name": "CrashTranslator: Automatically Reproducing Mobile Application Crashes Directly from Stack Trace",
         "Platform": "Android",
-        "Date": "October 11, 2023",
+        "Date": "October 2023",
         "Paper_Url": "http://arxiv.org/abs/2310.07128v1",
         "Highlight": "Leverages LLMs for iterative GUI navigation and crash reproduction from stack traces, integrating a reinforcement learning-based scoring system to optimize exploration steps.",
         "Code_Url": "https://github.com/wuchiuwong/CrashTranslator"
