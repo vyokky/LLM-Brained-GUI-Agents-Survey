@@ -329,6 +329,25 @@ table.dataTable tbody td {
     outline: none;
 }
 
+/* Custom Export Buttons Styling */
+.export-buttons .btn {
+    font-size: var(--font-size-base);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.export-buttons .btn-primary {
+    background-color: #2eae8e;
+    border-color: #196a65;
+}
+
+.export-buttons .btn-success {
+    background-color: #209b82;
+    border-color: #198754;
+}
+
+
 /* Pagination */
 .dataTables_paginate .paginate_button {
     padding: 0.75rem 1.5rem !important;
@@ -803,6 +822,7 @@ table.dataTable tbody td {
     color: var(--primary-color) !important;
     font-weight: 600 !important;
 }
+
 
 /* Input field styles */
 input[type="text"].form-control.datepicker {

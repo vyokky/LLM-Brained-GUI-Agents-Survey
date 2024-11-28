@@ -228,13 +228,28 @@ function initializeDataTable(data) {
         dom: '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
              '<"row"<"col-sm-12"tr>>' +
              '<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
-        buttons: [
-            {
-                extend: 'collection',
-                text: 'Export',
-                buttons: ['copy', 'excel', 'pdf']
-            }
-        ],
+             buttons: [
+                {
+                    extend: 'excelHtml5',
+                    text: 'Download Excel',
+                    className: 'btn btn-success me-2',
+                    title: 'LLM-Brained GUI Agents',
+                    exportOptions: {
+                        columns: ':visible'
+                    }
+                },
+                {
+                    extend: 'pdfHtml5',
+                    text: 'Download PDF',
+                    className: 'btn btn-primary',
+                    title: 'LLM-Brained GUI Agents',
+                    orientation: 'landscape',
+                    pageSize: 'A4',
+                    exportOptions: {
+                        columns: ':visible'
+                    }
+                }
+            ],
         language: {
             search: "Search papers:",
             lengthMenu: "Show _MENU_ papers per page",
@@ -244,6 +259,7 @@ function initializeDataTable(data) {
         }
     });
 
+    papersTable.buttons().container().appendTo('#exportButtonsContainer');
     // Adjust columns on window resize
     $(window).on('resize', function() {
         papersTable.columns.adjust().responsive.recalc();
