@@ -3,6 +3,7 @@ let papersTable;
 let allPapers = [];
 let platforms = new Set();
 
+
 // Function to determine platform category
 function getPlatformCategory(platform) {
     const platformLower = platform.toLowerCase();
@@ -83,6 +84,18 @@ function parseDate(dateStr) {
 }
 
 // Function to load papers from JSON files
+const categoryDisplayNames = {
+    'gui-testing': 'GUI Testing',
+    'virtual-assistant': 'Virtual Assistant',
+    'survey': 'Survey',
+    'benchmark': 'Benchmark',
+    'dataset': 'Dataset',
+    'models': 'Models',
+    'framework': 'Framework',
+    'all': 'All Papers'
+};
+
+// Function to load papers from JSON files
 async function loadPapers(category = 'all') {
     try {
         if (category === 'all') {
@@ -106,7 +119,7 @@ async function loadPapers(category = 'all') {
                                 ...paper,
                                 RawPlatform: platformInfo.raw,
                                 Platform: platformInfo.category,
-                                category: cat.charAt(0).toUpperCase() + cat.slice(1).replace('-', ' ')
+                                category: categoryDisplayNames[cat] || cat.charAt(0).toUpperCase() + cat.slice(1).replace('-', ' ')
                             });
                         });
                     } catch (error) {
@@ -133,7 +146,7 @@ async function loadPapers(category = 'all') {
                     ...paper,
                     RawPlatform: platformInfo.raw,
                     Platform: platformInfo.category,
-                    category: category.charAt(0).toUpperCase() + category.slice(1).replace('-', ' ')
+                    category: categoryDisplayNames[category] || category.charAt(0).toUpperCase() + category.slice(1).replace('-', ' ')
                 };
             });
         }
