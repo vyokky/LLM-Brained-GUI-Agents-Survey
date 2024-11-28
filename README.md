@@ -5,7 +5,7 @@
 <div align="center">
 
 [![Agent-Powered](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
-[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/) 
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2411.18279-B31B1B.svg)](https://arxiv.org/abs/2411.18279) 
 [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 [![github](https://img.shields.io/github/stars/vyokky/LLM-Brained-GUI-Agents-Survey)](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey)&ensp;
 
@@ -15,23 +15,26 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
 
 > **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
 
-## 📖 Read the Paper: [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/)
+## 📖 Read the Paper: [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279)
 <p align="left">
   <img src="assets/gui_agent.png" width="500px"/>
 </p>
 
-<!-- ### 📚 Cite Our Work
+### 📚 Cite Our Work
 
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{vyokky2022llm,
-  title={Large Language Model-Brained GUI Agents: A Survey},
-  author={Vyokky, and others},
-  journal={arXiv preprint arXiv:2202.00000},
-  year={2022}
+@misc{zhang2024largelanguagemodelbrainedgui,
+      title={Large Language Model-Brained GUI Agents: A Survey}, 
+      author={Chaoyun Zhang and Shilin He and Jiaxu Qian and Bowen Li and Liqun Li and Si Qin and Yu Kang and Minghua Ma and Guyue Liu and Qingwei Lin and Saravan Rajmohan and Dongmei Zhang and Qi Zhang},
+      year={2024},
+      eprint={2411.18279},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2411.18279}, 
 }
-``` -->
+```
 ---
 
 ## 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**

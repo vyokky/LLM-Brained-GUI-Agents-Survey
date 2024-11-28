@@ -2,7 +2,7 @@
 # Large Language Model-Brained GUI Agents: A Survey
 
 [![Repository](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
-[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2202.00000-B31B1B.svg)](https://arxiv.org/) 
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2411.18279-B31B1B.svg)](https://arxiv.org/abs/2411.18279) 
 [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 [![github](https://img.shields.io/github/stars/vyokky/LLM-Brained-GUI-Agents-Survey)](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey)&ensp;
 
@@ -11,7 +11,7 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
 !!! abstract "Definition"
     Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.
 
-## 📖 Read the [Paper](https://arxiv.org/)
+## 📖 Read the [Paper](https://arxiv.org/abs/2411.18279)
 
 <h1 align="center">
     <img src="/img/gui_agent.png"/> 
