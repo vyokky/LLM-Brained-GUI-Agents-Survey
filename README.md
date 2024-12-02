@@ -59,7 +59,10 @@ We encourage the community to contribute to this repository. If you have suggest
 
 To contribute, follow these steps:
 
-1. Find the `*.json` file in the [`data`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey/tree/main/data) directory which matches the category of the paper you want to add. It should be either `survey`, `framework`, `dataset`, `model`, `benchmark`, `gui-testing`, or `visual-assistant`.
+
+### 1. Find the paper category
+
+Find the `*.json` file in the [`data`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey/tree/main/data) directory which matches the category of the paper you want to add. It should be either `survey`, `framework`, `dataset`, `model`, `benchmark`, `gui-testing`, or `visual-assistant`.
 
     - `survey`: Papers that provide a survey of the LLM-Powered GUI Agents.
     - `framework`: Papers that introduce a new framework or architecture for LLM-Powered GUI Agents.
@@ -69,7 +72,11 @@ To contribute, follow these steps:
     - `gui-testing`: Papers that uses LLM-powered agents for GUI testing. It is mainly focused on the testing applications aspect.
     - `visual-assistant`: Papers, open-source projects, or products that use LLM-powered agents for visual assistance, such as voice assistants, produtized web agents, etc. It is mainly focused on the applications aspect.
 
-2. In the corresponding json file, add the paper details in the following format to the existing list of papers:
+
+
+### 2. Add the paper details
+
+In the corresponding json file, add the paper details in the following format to the existing list of papers:
 
 ```json
 {
@@ -81,6 +88,8 @@ To contribute, follow these steps:
     "Code_Url": "The project or code link of the paper",
 }
 ```
+
+### 3. Submit a Pull Request
 
 After adding the paper details, submit a pull request with the title `Add Paper: Paper Title` and we will review it as soon as possible. Once the pull request is merged, the paper will be automatically added to the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**.
 
