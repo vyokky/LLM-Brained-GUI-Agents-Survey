@@ -11,7 +11,7 @@
 
 </div>
 
-Welcome to the repository accompanying our survey paper on **Large Language Model-Brained GUI Agents**. This repository contains the code for the searchable paper page and the assets used in the paper. **LLM-Brained GUI Agents** are:
+Welcome to the repository accompanying our survey paper on **Large Language Model-Brained GUI Agents**. This repository contains the code for the [**searchable paper page**](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/) and the assets used in the paper. **LLM-Brained GUI Agents** are:
 
 > **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
 
@@ -81,6 +81,8 @@ To contribute, follow these steps:
     "Code_Url": "The project or code link of the paper",
 }
 ```
+
+After adding the paper details, submit a pull request with the title `Add Paper: Paper Title` and we will review it as soon as possible. Once the pull request is merged, the paper will be automatically added to the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**.
 
 ---
 
