@@ -59,7 +59,7 @@ We encourage the community to contribute to this repository. If you have suggest
 
 To contribute, follow these steps:
 
-1. Find the `*.json` file in the [`data`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey/tree/main/webpage/data) directory which matches the category of the paper you want to add. It should be either `survey`, `framework`, `dataset`, `model`, `benchmark`, `gui-testing`, or `visual-assistant`.
+1. Find the `*.json` file in the [`data`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey/tree/main/data) directory which matches the category of the paper you want to add. It should be either `survey`, `framework`, `dataset`, `model`, `benchmark`, `gui-testing`, or `visual-assistant`.
 
     - `survey`: Papers that provide a survey of the LLM-Powered GUI Agents.
     - `framework`: Papers that introduce a new framework or architecture for LLM-Powered GUI Agents.
