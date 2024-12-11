@@ -374,14 +374,13 @@
         "Paper_Url": "https://arxiv.org/abs/2411.13451",
         "Highlight": "Adapts to unseen tasks with just 1–2 multimodal human demonstrations",
         "Code_Url": ""
-    }
-
-        {
+    },
+    {
         "Name": "MobileGPT",
         "Platform": "Android",
         "Date": "December 2023",
         "Paper_Url": "https://arxiv.org/pdf/2312.03003",
-        "Highlight": "Uses task decomposition (divide and conquer) and external memory to reduce reduce cost and latency",
+        "Highlight": "Uses task decomposition and external memory to reduce reduce cost and latency",
         "Code_Url": "https://mobile-gpt.github.io/"
     }
 ]
