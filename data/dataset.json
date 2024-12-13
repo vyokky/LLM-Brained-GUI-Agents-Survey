@@ -24,6 +24,14 @@
         "Code_Url": "https://mcgill-nlp.github.io/weblinx/"
     },
     {
+        "Name": "WebCanvas: Benchmarking Web Agents in Online Environments",
+        "Platform": "Web",
+        "Date": "June 2024",
+        "Paper_Url": "http://arxiv.org/abs/2406.12373v3",
+        "Highlight": "Emphasis on dynamic evaluation using ''key nodes'', which represent critical intermediate states in web tasks.",
+        "Code_Url": "https://huggingface.co/datasets/iMeanAI/Mind2Web-Live"
+    },
+    {
         "Name": "VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning",
         "Platform": "Android",
         "Date": "June 2024",
