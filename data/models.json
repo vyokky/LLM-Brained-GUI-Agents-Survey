@@ -222,5 +222,13 @@
         "Paper_Url": "http://arxiv.org/abs/2409.03215v1",
         "Highlight": "First foundation action model for generalist GUI agents, supporting cross-platform GUI tasks, with a unified action space",
         "Code_Url": "https://osatlas.github.io/"
+    },
+    {
+        "Name": "Falcon-UI: Understanding GUI Before Following User Instructions",
+        "Platform": "iOS, Android, Windows, Linux, Web",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.09362",
+        "Highlight": "Decouples GUI context comprehension from instruction-following tasks, leveraging an instruction-free pretraining approach.",
+        "Code_Url": ""
     }
 ]

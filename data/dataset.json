@@ -214,5 +214,21 @@
         "Paper_Url": "http://arxiv.org/abs/2409.03215v1",
         "Highlight": "Provides a unified format across diverse environments, enhancing generalizability and error detection for GUI agents",
         "Code_Url": "https://github.com/SalesforceAIResearch/xLAM"
+    },
+    {
+        "Name": "AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials",
+        "Platform": "Web",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.09605",
+        "Highlight": "VLM agent guided by tutorials, with Playwright capturing the traces & synthesizes high-quality trajectory data by leveraging web tutorials",
+        "Code_Url": ""
+    },
+    {
+        "Name": "Falcon-UI: Understanding GUI Before Following User Instructions",
+        "Platform": "iOS, Android, Windows, Linux, Web",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.09362",
+        "Highlight": "Automatic simulations performed by a browser API & instruction-free paradigm and entirely auto-generated",
+        "Code_Url": ""
     }
 ]

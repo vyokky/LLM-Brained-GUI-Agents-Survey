@@ -93,6 +93,14 @@
         "Date": "April 2024",
         "Paper_Url": "https://arxiv.org/abs/2404.08860",
         "Highlight": "Features a three-stage process: extracting instructions, executing them in a simulated environment, and reranking search results based on execution outcomes.",
-        "Code_Url": "/"
+        "Code_Url": ""
+    },
+    {
+        "Name": "Automated Test Transfer Across Android Apps Using Large Language Models",
+        "Platform": "Android",
+        "Date": "November 2024",
+        "Paper_Url": "https://arxiv.org/abs/2411.17933",
+        "Highlight": "Leverages multimodal LLMs to perform UI test transfers without requiring source code access",
+        "Code_Url": ""
     }
 ]

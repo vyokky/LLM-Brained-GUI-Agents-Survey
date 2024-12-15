@@ -382,5 +382,29 @@
         "Paper_Url": "https://arxiv.org/pdf/2312.03003",
         "Highlight": "Uses task decomposition and external memory to reduce reduce cost and latency",
         "Code_Url": "https://mobile-gpt.github.io/"
+    },
+    {
+        "Name": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+        "Platform": "Web, Desktop, and Mobile",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.04454",
+        "Highlight": "Pure vision-based approach for GUI interaction, bypassing textual UI representations and enabling robust cross-platform generalization",
+        "Code_Url": "https://aguvis-project.github.io"
+    },
+    {
+        "Name": "ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data",
+        "Platform": "Web",
+        "Date": "November 2024",
+        "Paper_Url": "https://arxiv.org/abs/2411.15004",
+        "Highlight": "Specialized fine-tuning approach using production-scale workflow data to outperform general-purpose LLMs like GPT-4 in web navigation tasks",
+        "Code_Url": "https://github.com/colonylabs/ScribeAgent"
+    },
+    {
+        "Name": "Ponder & Press: Advancing Visual GUI Agent towards General Computer Control",
+        "Platform": "Web, Android, iOS Mobile, Windows, and macOS",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.01268",
+        "Highlight": "Divide-and-conquer architecture & purely vision-based GUI agent that does not require non-visual inputs",
+        "Code_Url": "https://invinciblewyq.github.io/ponder-press-page/"
     }
 ]
