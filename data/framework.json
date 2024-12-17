@@ -229,7 +229,7 @@
         "Date": "March 2024",
         "Paper_Url": "http://arxiv.org/abs/2403.02713v2",
         "Highlight": "The integration of a chain-of-action-thought process, which explicitly maps each action to screen descriptions, reasoning steps, and anticipated outcomes",
-        "Code_Url": "https://github.com/ZhangL-HKU/CoAT"
+        "Code_Url": "https://github.com/IMNearth/CoAT"
     },
     {
         "Name": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",

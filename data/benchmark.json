@@ -381,6 +381,6 @@
         "Date": "August 2021",
         "Paper_Url": "http://arxiv.org/abs/2401.10935v2",
         "Highlight": "Cross-environment benchmark evaluating agents across mobile and desktop devices, using a graph-based evaluation method to handle multiple correct paths and task flexibility.",
-        "Code_Url": "https://github.com/crab-benchmark"
+        "Code_Url": "https://github.com/njucckevin/SeeClick"
     }
 ]

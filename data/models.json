@@ -173,7 +173,7 @@
         "Date": "January 2024",
         "Paper_Url": "http://arxiv.org/abs/2401.10935v2",
         "Highlight": "High-resolution cross-module to balance computational efficiency and high-resolution input processing",
-        "Code_Url": "https://github.com/THUDM/CogVLM"
+        "Code_Url": "https://github.com/njucckevin/SeeClick"
     },
     {
         "Name": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
@@ -181,7 +181,7 @@
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.04615v3",
         "Highlight": "Ability to perform GUI tasks purely from screenshots and its novel GUI grounding pre-training approach",
-        "Code_Url": "https://github.com/njucckevin/SeeClick"
+        "Code_Url": "https://github.com/kyegomez/ScreenAI"
     },
     {
         "Name": "Ferret-UI 2: Mastering Universal User Interface Understanding Across Platforms",
@@ -189,7 +189,7 @@
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.18967v1",
         "Highlight": "Unified representation of UIs and infographics, combining visual and textual elements",
-        "Code_Url": "https://github.com/kyegomez/ScreenAI"
+        "Code_Url": "/"
     },
     {
         "Name": "OmniParser for Pure Vision Based GUI Agent",
