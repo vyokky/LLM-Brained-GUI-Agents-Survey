@@ -238,5 +238,13 @@
         "Paper_Url": "http://arxiv.org/abs/2410.23218v1",
         "Highlight": "Introduces a multi-platform foundation action model, along with a large GUI grounding dataset",
         "Code_Url": "https://github.com/OS-Copilot/OS-Atlas"
+    },
+    {
+        "Name": "On the Effects of Data Scale on UI Control Agents",
+        "Platform": "Android, Mobile",
+        "Date": "June 2024",
+        "Paper_Url": "https://arxiv.org/abs/2406.03679",
+        "Highlight": "A comprehensive Android app control dataset that includes both high and low-level human-generated instructions",
+        "Code_Url": "https://github.com/google-research/google-research/tree/master/android_control"
     }
 ]
