@@ -230,5 +230,13 @@
         "Paper_Url": "https://arxiv.org/abs/2412.09362",
         "Highlight": "Decouples GUI context comprehension from instruction-following tasks, leveraging an instruction-free pretraining approach.",
         "Code_Url": ""
+    },
+    {
+        "Name": "ShowUI: One Vision-Language-Action Model for GUI Visual Agent",
+        "Platform": "Desktop, Mobile, Web",
+        "Date": "November 2024",
+        "Paper_Url": "https://arxiv.org/abs/2411.17465",
+        "Highlight": "Lightweight Vision-Language-Action (VLA) model supporting both GUI grounding and navigation tasks",
+        "Code_Url": "https://github.com/showlab/ShowUI"
     }
 ]
