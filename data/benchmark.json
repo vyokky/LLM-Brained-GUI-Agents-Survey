@@ -216,14 +216,6 @@
         "Code_Url": "https://github.com/google-research/android_world"
     },
     {
-        "Name": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",
-        "Platform": "Android",
-        "Date": "February 2022",
-        "Paper_Url": "http://arxiv.org/abs/2401.16158v2",
-        "Highlight": "Benchmark based on mainstream Android apps, designed to test common mobile interactions.",
-        "Code_Url": "https://github.com/X-PLUG/MobileAgent"
-    },
-    {
         "Name": "AutoDroid: LLM-powered Task Automation in Android",
         "Platform": "Android",
         "Date": "August 2023",
