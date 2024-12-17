@@ -213,7 +213,7 @@
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.23218v1",
         "Highlight": "Interleaved Vision-Language-Action (VLA) approach allows seamless navigation, grounding, and understanding of GUI environments",
-        "Code_Url": "https://github.com/showlab/ShowUI"
+        "Code_Url": "https://github.com/OS-Copilot/OS-Atlas"
     },
     {
         "Name": "xLAM: A Family of Large Action Models to Empower AI Agent Systems",
