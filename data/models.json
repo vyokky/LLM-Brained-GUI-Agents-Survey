@@ -165,7 +165,7 @@
         "Date": "December 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.08914v2",
         "Highlight": "Innovatively uses policy gradients to improve spatial decoding in the pixel-to-sequence paradigm",
-        "Code_Url": "/"
+        "Code_Url": "https://github.com/THUDM/CogVLM"
     },
     {
         "Name": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
