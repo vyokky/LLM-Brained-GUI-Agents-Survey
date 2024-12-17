@@ -230,5 +230,13 @@
         "Paper_Url": "https://arxiv.org/abs/2412.09362",
         "Highlight": "Automatic simulations performed by a browser API & instruction-free paradigm and entirely auto-generated",
         "Code_Url": ""
+    },
+    {
+        "Name": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+        "Platform": "Websites, Computers, and mobile phones",
+        "Date": "October 2024",
+        "Paper_Url": "http://arxiv.org/abs/2410.23218v1",
+        "Highlight": "Interleaved Vision-Language-Action (VLA) approach allows seamless navigation, grounding, and understanding of GUI environments",
+        "Code_Url": "https://github.com/OS-Copilot/OS-Atlas"
     }
 ]
