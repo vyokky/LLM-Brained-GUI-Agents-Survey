@@ -269,7 +269,7 @@
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.13757v1",
         "Highlight": "Two-level agent system that separates task planning and execution into two specialized agents",
-        "Code_Url": "/"
+        "Code_Url": "https://github.com/OpenDFM/MobA"
     },
     {
         "Name": "UFO: A UI-Focused Agent for Windows OS Interaction",
