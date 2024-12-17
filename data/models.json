@@ -212,7 +212,7 @@
         "Platform": "Websites, Computers, and mobile phones",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.23218v1",
-        "Highlight": "Interleaved Vision-Language-Action (VLA) approach allows seamless navigation, grounding, and understanding of GUI environments",
+        "Highlight": "Introduces a multi-platform foundation action model, along with a large GUI grounding dataset",
         "Code_Url": "https://github.com/OS-Copilot/OS-Atlas"
     },
     {
