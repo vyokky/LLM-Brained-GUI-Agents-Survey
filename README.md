@@ -108,7 +108,7 @@ Here are some other repositories that you might find useful:
 
 ## 🫶 Support Us
 
-⭐ **If you find this repository helpful, please condiser to cite our paper and give it a star!**
+⭐ **If you find this repository helpful, please consider to cite our paper and give it a star!**
 
 ---
 
