@@ -165,7 +165,7 @@
         "Date": "December 2023",
         "Paper_Url": "http://arxiv.org/abs/2312.08914v2",
         "Highlight": "Innovatively uses policy gradients to improve spatial decoding in the pixel-to-sequence paradigm",
-        "Code_Url": "/"
+        "Code_Url": "https://github.com/THUDM/CogVLM"
     },
     {
         "Name": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
@@ -173,7 +173,7 @@
         "Date": "January 2024",
         "Paper_Url": "http://arxiv.org/abs/2401.10935v2",
         "Highlight": "High-resolution cross-module to balance computational efficiency and high-resolution input processing",
-        "Code_Url": "https://github.com/THUDM/CogVLM"
+        "Code_Url": "https://github.com/njucckevin/SeeClick"
     },
     {
         "Name": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
@@ -181,7 +181,7 @@
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.04615v3",
         "Highlight": "Ability to perform GUI tasks purely from screenshots and its novel GUI grounding pre-training approach",
-        "Code_Url": "https://github.com/njucckevin/SeeClick"
+        "Code_Url": "https://github.com/kyegomez/ScreenAI"
     },
     {
         "Name": "Ferret-UI 2: Mastering Universal User Interface Understanding Across Platforms",
@@ -189,7 +189,7 @@
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.18967v1",
         "Highlight": "Unified representation of UIs and infographics, combining visual and textual elements",
-        "Code_Url": "https://github.com/kyegomez/ScreenAI"
+        "Code_Url": "/"
     },
     {
         "Name": "OmniParser for Pure Vision Based GUI Agent",
@@ -212,8 +212,8 @@
         "Platform": "Websites, Computers, and mobile phones",
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.23218v1",
-        "Highlight": "Interleaved Vision-Language-Action (VLA) approach allows seamless navigation, grounding, and understanding of GUI environments",
-        "Code_Url": "https://github.com/showlab/ShowUI"
+        "Highlight": "Introduces a multi-platform foundation action model, along with a large GUI grounding dataset",
+        "Code_Url": "https://github.com/OS-Copilot/OS-Atlas"
     },
     {
         "Name": "xLAM: A Family of Large Action Models to Empower AI Agent Systems",
@@ -230,5 +230,13 @@
         "Paper_Url": "https://arxiv.org/abs/2412.09362",
         "Highlight": "Decouples GUI context comprehension from instruction-following tasks, leveraging an instruction-free pretraining approach.",
         "Code_Url": ""
+    },
+    {
+        "Name": "ShowUI: One Vision-Language-Action Model for GUI Visual Agent",
+        "Platform": "Desktop, Mobile, Web",
+        "Date": "November 2024",
+        "Paper_Url": "https://arxiv.org/abs/2411.17465",
+        "Highlight": "Lightweight Vision-Language-Action (VLA) model supporting both GUI grounding and navigation tasks",
+        "Code_Url": "https://github.com/showlab/ShowUI"
     }
 ]

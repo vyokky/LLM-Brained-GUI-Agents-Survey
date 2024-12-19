@@ -229,7 +229,7 @@
         "Date": "March 2024",
         "Paper_Url": "http://arxiv.org/abs/2403.02713v2",
         "Highlight": "The integration of a chain-of-action-thought process, which explicitly maps each action to screen descriptions, reasoning steps, and anticipated outcomes",
-        "Code_Url": "https://github.com/ZhangL-HKU/CoAT"
+        "Code_Url": "https://github.com/IMNearth/CoAT"
     },
     {
         "Name": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",
@@ -256,7 +256,7 @@
         "Code_Url": "/"
     },
     {
-        "Name": "Lightweight Multi-Modal Android App Control",
+        "Name": "Lightweight Neural App Control",
         "Platform": "Android",
         "Date": "October 2024",
         "Paper_Url": "https://arxiv.org/abs/2410.17883",
@@ -269,7 +269,7 @@
         "Date": "October 2024",
         "Paper_Url": "http://arxiv.org/abs/2410.13757v1",
         "Highlight": "Two-level agent system that separates task planning and execution into two specialized agents",
-        "Code_Url": "/"
+        "Code_Url": "https://github.com/OpenDFM/MobA"
     },
     {
         "Name": "UFO: A UI-Focused Agent for Windows OS Interaction",
