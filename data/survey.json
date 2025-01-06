@@ -214,5 +214,12 @@
         "Date": "September 2024",
         "Paper_Url": "https://arxiv.org/abs/2409.18807",
         "Highlight": "A survey of the tool usage in LLM agents."
+    },
+    {
+        "Name": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
+        "Date": "December 2024",
+        "Paper_Url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey/blob/main/paper.pdf",
+        "Highlight": "A comprehensive survey on OS agents."
     }
+
 ]
