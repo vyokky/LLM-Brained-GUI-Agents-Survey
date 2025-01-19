@@ -214,5 +214,29 @@
         "Date": "September 2024",
         "Paper_Url": "https://arxiv.org/abs/2409.18807",
         "Highlight": "A survey of the tool usage in LLM agents."
+    },
+    {
+        "Name": "GUI Agents: A Survey",
+        "Date": "May 2023",
+        "Paper_Url": "https://arxiv.org/abs/2303.18223",
+        "Highlight": "A comprehensive survey of LLMs."
+    },
+    {
+        "Name": "LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects",
+        "Date": "May 2023",
+        "Paper_Url": "https://arxiv.org/abs/2303.18223",
+        "Highlight": "A comprehensive survey of LLMs."
+    },
+    {
+        "Name": "OS Agents: A Survey on MLLM-Based Agents for General Computing Devices Use",
+        "Date": "Dec 2024",
+        "Paper_Url": "https://www.preprints.org/frontend/manuscript/3842b6163d82801988adf663ee18b6d5/download_pub",
+        "Highlight": "A comprehensive survey of LLMs."
+    },
+    {
+        "Name": "Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey",
+        "Date": "Jan 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.02189",
+        "Highlight": "A comprehensive survey of LLMs."
     }
 ]
