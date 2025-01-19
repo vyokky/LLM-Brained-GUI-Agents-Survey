@@ -5,7 +5,7 @@
 <div align="center">
 
 [![Agent-Powered](https://img.shields.io/badge/Agent-Powered-0ABAB5?logo=robot-framework&logoColor=white)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
-[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2411.18279-B31B1B.svg)](https://arxiv.org/abs/2411.18279) 
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2411.18279-B31B1B.svg)](https://arxiv.org/abs/2411.18279)
 [![Website](https://img.shields.io/badge/Website-Searchable%20List-blue.svg)](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)
 [![github](https://img.shields.io/github/stars/vyokky/LLM-Brained-GUI-Agents-Survey)](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey)&ensp;
 
@@ -16,6 +16,7 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
 > **Intelligent agents that operate within GUI environments, leveraging Large Language Models (LLMs) as their core inference and cognitive engine to generate, plan, and execute actions in a flexible and adaptive manner.**
 
 ## 📖 Read the Paper: [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279)
+
 <p align="left">
   <img src="assets/gui_agent.png" width="500px"/>
 </p>
@@ -35,6 +36,7 @@ If you find our work useful, please consider citing:
       url={https://arxiv.org/abs/2411.18279}, 
 }
 ```
+
 ---
 
 ## 🔍 Explore the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**
@@ -47,9 +49,7 @@ If you find our work useful, please consider citing:
 
 The **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)** is a web-based interface that allows you to search and filter through the papers in our survey. You can also view the papers by category, platform, and date.
 
-
 ---
-
 
 ## 🙌 Contributing
 
@@ -59,21 +59,17 @@ We encourage the community to contribute to this repository. If you have suggest
 
 To contribute, follow these steps:
 
-
 ### 1. Find the paper category
 
 Find the `*.json` file in the [`data`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey/tree/main/data) directory which matches the category of the paper you want to add. It should be either `survey`, `framework`, `dataset`, `model`, `benchmark`, `gui-testing`, or `visual-assistant`.
 
-    - `survey`: Papers that provide a survey of the LLM-Powered GUI Agents.
-    - `framework`: Papers that introduce a new framework or architecture for LLM-Powered GUI Agents.
-    - `dataset`: Papers that introduce a new dataset for optimizing models for LLM-Powered GUI Agents.
-    - `model`: Papers that introduce a new optimized model for LLM-Powered GUI Agents.
-    - `benchmark`: Papers that introduce a new benchmark for evaluating LLM-Powered GUI Agents.
-    - `gui-testing`: Papers that uses LLM-powered agents for GUI testing. It is mainly focused on the testing applications aspect.
-    - `visual-assistant`: Papers, open-source projects, or products that use LLM-powered agents for visual assistance, such as voice assistants, produtized web agents, etc. It is mainly focused on the applications aspect.
-
-
-
+- `survey`: Papers that provide a survey of the LLM-Powered GUI Agents.
+- `framework`: Papers that introduce a new framework or architecture for LLM-Powered GUI Agents.
+- `dataset`: Papers that introduce a new dataset for optimizing models for LLM-Powered GUI Agents.
+- `model`: Papers that introduce a new optimized model for LLM-Powered GUI Agents.
+- `benchmark`: Papers that introduce a new benchmark for evaluating LLM-Powered GUI Agents.
+- `gui-testing`: Papers that uses LLM-powered agents for GUI testing. It is mainly focused on the testing applications aspect.
+- `visual-assistant`: Papers, open-source projects, or products that use LLM-powered agents for visual assistance, such as voice assistants, produtized web agents, etc. It is mainly focused on the applications aspect.
 ### 2. Add the paper details
 
 In the corresponding json file, add the paper details in the following format to the existing list of papers:
@@ -88,7 +84,6 @@ In the corresponding json file, add the paper details in the following format to
     "Code_Url": "The project or code link of the paper",
 }
 ```
-
 ### 3. Submit a Pull Request
 
 After adding the paper details, submit a pull request with the title `Add Paper: Paper Title` and we will review it as soon as possible. Once the pull request is merged, the paper will be automatically added to the **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)**.
@@ -103,6 +98,7 @@ Here are some other repositories that you might find useful:
 - [Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent/tree/main)
 - [Awesome-LLM-based-Web-Agent-and-Tools](https://github.com/albzni/Awesome-LLM-based-Web-Agent-and-Tools)
 - [awesome-ui-agents](https://github.com/opendilab/awesome-ui-agents/)
+- [OS-Agent-Survey](https://github.com/OS-Agent-Survey/OS-Agent-Survey)
 
 ---
 
@@ -113,6 +109,7 @@ Here are some other repositories that you might find useful:
 ---
 
 ## ❗️ Note
+
 If the authors of the paper wish to have their paper removed from the website, please contact [chaoyun.zhang@microsoft.com](mailto:chaoyun.zhang@microsoft.com).
 
 ---
