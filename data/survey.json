@@ -217,25 +217,25 @@
     },
     {
         "Name": "GUI Agents: A Survey",
-        "Date": "Dec 2024",
+        "Date": "December 2024",
         "Paper_Url": "https://arxiv.org/abs/2412.13501",
         "Highlight": "A survey of GUI agents."
     },
     {
         "Name": "LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects",
-        "Date": "Jan 2025",
+        "Date": "January 2025",
         "Paper_Url": "https://www.preprints.org/frontend/manuscript/3da31779a6c7c196419c841cee5292cf/download_pub",
         "Highlight": "A Survey on GUI agent on phone automation."
     },
     {
         "Name": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
-        "Date": "Dec 2024",
+        "Date": "December 2024",
         "Paper_Url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey/blob/main/paper.pdf",
         "Highlight": "A comprehensive survey on OS agents."
     },
     {
         "Name": "Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey",
-        "Date": "Jan 2025",
+        "Date": "January 2025",
         "Paper_Url": "https://arxiv.org/abs/2501.02189",
         "Highlight": "A comprehensive survey of LLMs."
     }

@@ -406,5 +406,37 @@
         "Paper_Url": "https://arxiv.org/abs/2412.01268",
         "Highlight": "Divide-and-conquer architecture & purely vision-based GUI agent that does not require non-visual inputs",
         "Code_Url": "https://invinciblewyq.github.io/ponder-press-page/"
+    },
+    {
+        "Name": "Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents",
+        "Platform": "Web",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.01268",
+        "Highlight": "Autonomous skill discovery in real-world environments using task proposers and reward-based evaluation",
+        "Code_Url": "https://yanqval.github.io/PAE/"
+    },
+    {
+        "Name": "PC Agent: While You Sleep, AI Works -- A Cognitive Journey into Digital World",
+        "Platform": "Windows",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.17589",
+        "Highlight": "Human cognition transfer framework, which transforms raw interaction data into cognitive trajectories to enable complex computer tasks.",
+        "Code_Url": "https://invinciblewyq.github.io/ponder-press-page/"
+    },
+    {
+        "Name": "WEPO: Web Element Preference Optimization for LLM-based Web Navigation",
+        "Platform": "Web",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.10742",
+        "Highlight": "Incorporates a distance-based sampling mechanism tailored to the DOM tree structure, enhancing preference learning by distinguishing between salient and non-salient web elements with DPO",
+        "Code_Url": ""
+    },
+    {
+        "Name": "AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation",
+        "Platform": "Android",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.18116",
+        "Highlight": "Converts GUI task automation into a script generation problem, enhancing efficiency and task success rates.",
+        "Code_Url": ""
     }
 ]
