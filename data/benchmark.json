@@ -316,7 +316,7 @@
         "Platform": "MacOS, Linux, Windows, Web",
         "Date": "February 2024",
         "Paper_Url": "http://arxiv.org/abs/2402.17553v3",
-        "Highlight": "Assesses agents\u2019 capability to generate executable programs for computer tasks across desktop and web applications in various OS environments, prioritizing multimodal challenges.",
+        "Highlight": "Assesses agents capability to generate executable programs for computer tasks across desktop and web applications in various OS environments, prioritizing multimodal challenges.",
         "Code_Url": "https://huggingface.co/datasets/Writer/omniact"
     },
     {
@@ -381,6 +381,38 @@
         "Date": "August 2021",
         "Paper_Url": "http://arxiv.org/abs/2401.10935v2",
         "Highlight": "Cross-environment benchmark evaluating agents across mobile and desktop devices, using a graph-based evaluation method to handle multiple correct paths and task flexibility.",
+        "Code_Url": "https://github.com/njucckevin/SeeClick"
+    },
+    {
+        "Name": "The BrowserGym Ecosystem for Web Agent Research",
+        "Platform": "Web",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.05467",
+        "Highlight": "Provides a unified, extensible, and open-source environment for evaluating web agents with standardized APIs and observations.",
+        "Code_Url": "https://github.com/ServiceNow/BrowserGym"
+    },
+    {
+        "Name": "A3: Android Agent Arena for Mobile GUI Agents",
+        "Platform": "Mobile Android",
+        "Date": "January 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.01149",
+        "Highlight": "Introduces a novel business-level LLM-based evaluation process, significantly reducing human labor and coding expertise requirements.",
+        "Code_Url": "https://yuxiangchai.github.io/Android-Agent-Arena/"
+    },
+    {
+        "Name": "WebWalker: Benchmarking LLMs in Web Traversal",
+        "Platform": "Web",
+        "Date": "January 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.07572",
+        "Highlight": "Benchmarks the capacity of LLMs to handle deep, structured, and realistic web-based navigation and reasoning tasks.",
+        "Code_Url": "https://github.com/Alibaba-NLP/WebWalker"
+    },
+    {
+        "Name": "Beyond Pass or Fail: A Multi-dimensional Benchmark for Mobile UI Navigation",
+        "Platform": "Android",
+        "Date": "January 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.02863",
+        "Highlight": "Provides a fully automated benchmarking suite and introduces a multi-dimensional evaluation framework.",
         "Code_Url": "https://github.com/njucckevin/SeeClick"
     }
 ]

@@ -246,5 +246,13 @@
         "Paper_Url": "https://arxiv.org/abs/2406.03679",
         "Highlight": "A comprehensive Android app control dataset that includes both high and low-level human-generated instructions",
         "Code_Url": "https://github.com/google-research/google-research/tree/master/android_control"
+    },
+    {
+        "Name": "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis",
+        "Platform": "Android, Web",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.19723",
+        "Highlight": "Reverses the conventional task-driven data collection process by enabling exploration-first trajectory synthesis.",
+        "Code_Url": "https://qiushisun.github.io/OS-Genesis-Home/"
     }
 ]
