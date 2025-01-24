@@ -1,5 +1,13 @@
 [
     {
+        "Name": "Attention-driven GUI Grounding: Leveraging Pretrained Multimodal Large Language Models without Fine-Tuning",
+        "Platform": "General",
+        "Date": "December 2024",
+        "Paper_Url": "https://arxiv.org/abs/2412.10840",
+        "Highlight": "TAG: a Tuning-free Attention-driven GUI Grounding method for GUI task automation",
+        "Code_Url": "https://github.com/HeimingX/TAG.git"
+    },
+    {
         "Name": "Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents",
         "Platform": "Web",
         "Date": "August 2024",
