@@ -238,5 +238,39 @@
         "Paper_Url": "https://arxiv.org/abs/2411.17465",
         "Highlight": "Lightweight Vision-Language-Action (VLA) model supporting both GUI grounding and navigation tasks",
         "Code_Url": "https://github.com/showlab/ShowUI"
+    },
+    {
+        "Name": "Claude 3.5 Sonnet (Computer Use)",
+        "Platform": "Desktop",
+        "Date": "October 2024",
+        "Paper_Url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+        "Highlight": "First foundation action model for generalist GUI agents",
+        "Code_Url": ""
+    },
+    {
+        "Name": "OpenAI Operator",
+        "Platform": "Desktop",
+        "Date": "January 2025",
+        "Paper_Url": "https://cdn.openai.com/operator_system_card.pdf",
+        "Highlight": "Supervised learning and reinforcement learning & Trained to use a computer like a human, achieving remarkable performance on benchmarks",
+        "Code_Url": ""
+    },
+    {
+        "Name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+        "Platform": "Web, Desktop (Windows, macOS), and Mobile (Android)",
+        "Date": "January 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.12326",
+        "Highlight": "Pure vision-based perception with standardized GUI actions across platforms (Web, Mobile, Desktop).",
+        "Code_Url": "https://github.com/bytedance/UI-TARS"
+    },
+    {
+        "Name": "V-Zen: Efficient GUI Understanding and Precise Grounding With A Novel Multimodal LLM",
+        "Platform": "Computers and Web",
+        "Date": "May 2024",
+        "Paper_Url": "https://arxiv.org/abs/2405.15341",
+        "Highlight": "Dual-resolution visual encoding for precise GUI grounding and task execution.",
+        "Code_Url": "https://github.com/abdur75648/V-Zen"
     }
+
+
 ]

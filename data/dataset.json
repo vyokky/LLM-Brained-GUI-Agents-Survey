@@ -254,5 +254,13 @@
         "Paper_Url": "https://arxiv.org/abs/2412.19723",
         "Highlight": "Reverses the conventional task-driven data collection process by enabling exploration-first trajectory synthesis.",
         "Code_Url": "https://qiushisun.github.io/OS-Genesis-Home/"
+    },
+    {
+        "Name": "GUIDE: Graphical User Interface Data for Execution",
+        "Platform": "Computer and Web",
+        "Date": "April 2024",
+        "Paper_Url": "https://arxiv.org/abs/2404.16048",
+        "Highlight": "Integrates images, action sequences, task descriptions, and spatial grounding into a unified dataset.",
+        "Code_Url": "https://github.com/superagi/GUIDE"
     }
 ]

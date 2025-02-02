@@ -438,5 +438,37 @@
         "Paper_Url": "https://arxiv.org/abs/2412.18116",
         "Highlight": "Converts GUI task automation into a script generation problem, enhancing efficiency and task success rates.",
         "Code_Url": ""
+    },
+    {
+        "Name": "Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks",
+        "Platform": "Android",
+        "Date": "January 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.11733",
+        "Highlight": "Hierarchical multi-agent framework that separates planning from execution for improved long-term reasoning and self-evolution, enabling the system to learn reusable tips and shortcuts.",
+        "Code_Url": "https://x-plug.github.io/MobileAgent"
+    },
+    {
+        "Name": "Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments",
+        "Platform": "Web, code development, and desktops",
+        "Date": "January 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.10893",
+        "Highlight": "Introduces a fully autonomous data synthesis process, eliminating the need for human-labeled agentic data.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "R2D2: Remembering, Reflecting and Dynamic Decision Making for Web Agents",
+        "Platform": "Web",
+        "Date": "January 2025",
+        "Paper_Url": "https://arxiv.org/abs/2501.12485",
+        "Highlight": "Dynamically constructs an internal web environment representation for more robust decision-making. The integration of a replay buffer and error analysis reduces navigation errors and improves task completion rates.",
+        "Code_Url": "https://github.com/AmenRa/retriv"
+    },
+    {
+        "Name": "ClickAgent: Enhancing ui location capabilities of autonomous agents",
+        "Platform": "Android",
+        "Date": "October 2024",
+        "Paper_Url": "https://arxiv.org/abs/2410.11872",
+        "Highlight": "Combines MLLM reasoning with a dedicated UI location model to enhance UI interaction accuracy.",
+        "Code_Url": "https://github.com/Samsung/ClickAgent"
     }
 ]
