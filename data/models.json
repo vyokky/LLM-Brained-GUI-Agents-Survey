@@ -302,6 +302,14 @@
         "Paper_Url": "https://arxiv.org/abs/2502.08226",
         "Highlight": "Utilizes hierarchical screen parsing and spatially enhanced element descriptions to enhance LVLMs without additional training.",
         "Code_Url": ""
+    },
+    {
+        "Name": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+        "Platform": "Web, Desktop (Windows, MacOS, Linux), Mobile (Android, iOS)",
+        "Date": "May 2024",
+        "Paper_Url": "https://arxiv.org/abs/2410.05243",
+        "Highlight": "Utilizes hierarchical screen parsing and spatially enhanced element descriptions to enhance LVLMs without additional training.",
+        "Code_Url": ""
     }
 
 
