@@ -470,5 +470,29 @@
         "Paper_Url": "https://arxiv.org/abs/2410.11872",
         "Highlight": "Combines MLLM reasoning with a dedicated UI location model to enhance UI interaction accuracy.",
         "Code_Url": "https://github.com/Samsung/ClickAgent"
+    },
+    {
+        "Name": "ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation",
+        "Platform": "Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.02955",
+        "Highlight": "Divides tasks into subtasks: ``Page Reaching'' (navigating to the correct screen) and ``Page Operation'' (performing actions on the screen), using RL with preference-based training to improve long-term task success.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "FedMobileAgent: Training Mobile Agents Using Decentralized Self-Sourced Data from Diverse Users",
+        "Platform": "Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.02982",
+        "Highlight": "Introduces privacy-preserving federated learning for mobile automation, enabling large-scale training without centralized human annotation.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "Prompt2Task: Automating UI Tasks on Smartphones from Textual Prompts",
+        "Platform": "Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3716132",
+        "Highlight": "Enables UI automation through free-form textual prompts, eliminating the need for users to script automation tasks.",
+        "Code_Url": "Https://github.com/PromptRPA/Prompt2TaskDataset"
     }
 ]

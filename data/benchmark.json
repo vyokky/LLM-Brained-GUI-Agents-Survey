@@ -414,5 +414,13 @@
         "Paper_Url": "https://arxiv.org/abs/2501.02863",
         "Highlight": "Provides a fully automated benchmarking suite and introduces a multi-dimensional evaluation framework.",
         "Code_Url": "https://github.com/njucckevin/SeeClick"
+    },
+    {
+        "Name": "WorldGUI: Dynamic Testing for Comprehensive Desktop GUI Automation",
+        "Platform": "Windows",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.08047",
+        "Highlight": "First GUI benchmark designed to evaluate dynamic GUI interactions by incorporating various initial states.",
+        "Code_Url": ""
     }
 ]

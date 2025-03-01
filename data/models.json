@@ -278,6 +278,30 @@
         "Paper_Url": "https://arxiv.org/abs/2405.15341",
         "Highlight": "Dual-resolution visual encoding for precise GUI grounding and task execution.",
         "Code_Url": "https://github.com/abdur75648/V-Zen"
+    },
+    {
+        "Name": "AppVLM: A Lightweight Vision Language Model for Online App Control",
+        "Platform": "Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.06395",
+        "Highlight": "A lightweight model that achieves near-GPT-4o performance in Android control tasks while being 10× faster and more resource-efficient.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "RWKV-UI: UI Understanding with Enhanced Perception and Reasoning",
+        "Platform": "Web",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.03971",
+        "Highlight": "Introduces a high-resolution three-encoder architecture with visual prompt engineering and CoT reasoning.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "TRISHUL: Towards Region Identification and Screen Hierarchy Understanding for Large VLM based GUI Agents",
+        "Platform": "Web, Desktop, and Mobile platforms ",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.08226",
+        "Highlight": "Utilizes hierarchical screen parsing and spatially enhanced element descriptions to enhance LVLMs without additional training.",
+        "Code_Url": ""
     }
 
 
