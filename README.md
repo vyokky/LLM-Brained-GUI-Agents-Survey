@@ -26,14 +26,11 @@ Welcome to the repository accompanying our survey paper on **Large Language Mode
 If you find our work useful, please consider citing:
 
 ```bibtex
-@misc{zhang2024largelanguagemodelbrainedgui,
-      title={Large Language Model-Brained GUI Agents: A Survey}, 
-      author={Chaoyun Zhang and Shilin He and Jiaxu Qian and Bowen Li and Liqun Li and Si Qin and Yu Kang and Minghua Ma and Guyue Liu and Qingwei Lin and Saravan Rajmohan and Dongmei Zhang and Qi Zhang},
-      year={2024},
-      eprint={2411.18279},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2411.18279}, 
+@article{zhang2024large,
+  title={Large Language Model-Brained GUI Agents: A Survey},
+  author={Zhang, Chaoyun and He, Shilin and Qian, Jiaxu and Li, Bowen and Li, Liqun and Qin, Si and Kang, Yu and Ma, Minghua and Liu, Guyue and Lin, Qingwei and others},
+  journal={arXiv preprint arXiv:2411.18279},
+  year={2024}
 }
 ```
 
