@@ -308,9 +308,64 @@
         "Platform": "Web, Desktop (Windows, MacOS, Linux), Mobile (Android, iOS)",
         "Date": "May 2024",
         "Paper_Url": "https://arxiv.org/abs/2410.05243",
-        "Highlight": "Utilizes hierarchical screen parsing and spatially enhanced element descriptions to enhance LVLMs without additional training.",
+        "Highlight": "A universal GUI grounding model that relies solely on vision, eliminating the need for text-based representations",
         "Code_Url": ""
+    },
+    {
+        "Name": "VSC-RL: Advancing Autonomous Vision-Language Agents with Variational Subgoal-Conditioned Reinforcement Learning",
+        "Platform": "Mobile",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.07949",
+        "Highlight": "Addresses sparse-reward, long-horizon tasks for RL by autonomously breaking a complicated goal into subgoals",
+        "Code_Url": "https://ai-agents-2030.github.io/VSC-RL"
+    },
+    {
+        "Name": "Magma: A Foundation Model for Multimodal AI Agents",
+        "Platform": "Web, Mobile, Desktop, Robotics",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.13130",
+        "Highlight": "Jointly trains on heterogeneous datasets, enabling generalization across digital and physical tasks",
+        "Code_Url": "https://microsoft.github.io/Magma/"
+    },
+    {
+        "Name": "Digi-Q: Learning Q-Value Functions for Training Device-Control Agents",
+        "Platform": "Mobile Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.15760",
+        "Highlight": "Introduces a VLM-based Q-function for GUI agent training, enabling reinforcement learning without online interactions.",
+        "Code_Url": "https://github.com/DigiRL-agent/digiq"
+    },
+    {
+        "Name": "VEM: Environment-Free Exploration for Training GUI Agent with Value Environment Model",
+        "Platform": "Mobile Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.18906",
+        "Highlight": "Unlike traditional RL methods that require environment interactions, VEM enables training purely on offline data with a Value Environment Model.",
+        "Code_Url": "https://github.com/microsoft/GUI-Agent-RL"
+    },
+    {
+        "Name": "AutoGUI: Scaling GUI Grounding with Automatic Functionality Annotations from LLMs",
+        "Platform": " Web, Mobile",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.01977",
+        "Highlight": "Automatically labels UI elements based on interaction-induced changes, making it scalable and high-quality.",
+        "Code_Url": "https://autogui-project.github.io/"
+    },
+    {
+        "Name": "Smoothing Grounding and Reasoning for MLLM-Powered GUI Agents with Query-Oriented Pivot Tasks",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.00401",
+        "Highlight": "Improves reasoning without requiring large-scale training data.",
+        "Code_Url": "https://github.com/ZrW00/GUIPivot"
+    },
+    {
+        "Name": "WinClick: GUI Grounding with Multimodal Large Language Models",
+        "Platform": "Windows Computer",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.04730",
+        "Highlight": "The first GUI grounding model specifically tailored for Windows.",
+        "Code_Url": "https://github.com/zackhuiiiii/WinSpot"
     }
-
-
 ]
+

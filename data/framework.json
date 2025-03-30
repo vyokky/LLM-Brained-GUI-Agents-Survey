@@ -494,5 +494,96 @@
         "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3716132",
         "Highlight": "Enables UI automation through free-form textual prompts, eliminating the need for users to script automation tasks.",
         "Code_Url": "Https://github.com/PromptRPA/Prompt2TaskDataset"
+    },
+    {
+        "Name": "Symbiotic Cooperation for Web Agents: Harnessing Complementary Strengths of Large and Small LLMs",
+        "Platform": "Web",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.07942",
+        "Highlight": "Multi-agent iterative architecture & Introduces an iterative, symbiotic learning process between large and small LLMs for web automation. Enhances both data synthesis and task performance through speculative data synthesis, multi-task learning, and privacy-preserving hybrid modes.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "PC-Agent: A Hierarchical Multi-Agent Collaboration Framework for Complex Task Automation on PC",
+        "Platform": "Windows computers",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.14282",
+        "Highlight": "PC-Agent's hierarchical multi-agent design enables efficient decomposition of complex PC tasks. Its Active Perception Module enhances fine-grained GUI understanding by combining accessibility structures, OCR, and intention grounding.",
+        "Code_Url": "https://github.com/X-PLUG/MobileAgent/tree/main/PC-Agent"
+    },
+    {
+        "Name": "Mobile-Agent-V: Learning Mobile Device Operation Through Video-Guided Multi-Agent Collaboration",
+        "Platform": "Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.17110",
+        "Highlight": " Introduces video-guided learning, allowing the agent to acquire operational knowledge efficiently.",
+        "Code_Url": "https://github.com/X-PLUG/MobileAgent"
+    },
+    {
+        "Name": "MobileSteward: Integrating Multiple App-Oriented Agents with Self-Evolution to Automate Cross-App Instructions",
+        "Platform": "Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.16796",
+        "Highlight": "Introduces an app-oriented multi-agent framework with self-evolution, overcoming the complexity of cross-app interactions by dynamically recruiting specialized agents.",
+        "Code_Url": "https://github.com/XiaoMi/MobileSteward"
+    },
+    {
+        "Name": "Programming with Pixels: Computer-Use Meets Software Engineering",
+        "Platform": "Computers",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.18525",
+        "Highlight": "Shifts software engineering agents from API-based tool interactions to direct GUI-based computer use, allowing agents to interact with an IDE as a human developer would.",
+        "Code_Url": "https://programmingwithpixels.com"
+    },
+    {
+        "Name": "AppAgentX: Evolving GUI Agents as Proficient Smartphone Users",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.02268",
+        "Highlight": "Introduces an evolutionary mechanism that enables dynamic learning from past interactions and replaces inefficient low-level operations with high-level actions.",
+        "Code_Url": "https://appagentx.github.io/"
+    },
+    {
+        "Name": "LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications",
+        "Platform": "Web",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.02950",
+        "Highlight": "First open-source, production-ready web agent integrating tree search for multi-step task execution.",
+        "Code_Url": "https://github.com/PathOnAI/LiteWebAgent"
+    },
+    {
+        "Name": "CHOP: Mobile Operating Assistant with Constrained High-frequency Optimized Subtask Planning",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.03743",
+        "Highlight": "Introduces a basis subtask framework, where subtasks are predefined based on human task decomposition patterns, ensuring better executability and efficiency.",
+        "Code_Url": "https://github.com/Yuqi-Zhou/CHOP"
+    },
+    {
+        "Name": "Enhancing Language Multi-Agent Learning with Multi-Agent Credit Re-Assignment for Interactive Environment Generalization",
+        "Platform": "Mobile Android, Web",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.14496",
+        "Highlight": "A multi-agent reinforcement learning framework that introduces a Credit Re-Assignment (CR) strategy, using LLMs instead of environment-specific rewards to enhance performance and generalization.",
+        "Code_Url": "https://github.com/THUNLP-MT/CollabUIAgents"
+    },
+    {
+        "Name": "Automating the enterprise with foundation models",
+        "Platform": "Web",
+        "Date": "May 2024",
+        "Paper_Url": "https://arxiv.org/abs/2405.03710",
+        "Highlight": "Eliminates the high setup costs, brittle execution, and burdensome maintenance associated with traditional RPA by learning from video and text documentation.",
+        "Code_Url": "https://github.com/HazyResearch/eclair-agents"
+
+    },
+    {
+        "Name": "Towards Ethical and Personalized Web Navigation Agents: A Framework for User-Aligned Task Execution",
+        "Platform": "Web",
+        "Date": "March 2025",
+        "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3701551.3707420",
+        "Highlight": "User-aligned task execution, where the agent adapts to individual user preferences in an ethical manner.",
+        "Code_Url": "/"
     }
+
+
 ]

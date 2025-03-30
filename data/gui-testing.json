@@ -102,5 +102,30 @@
         "Paper_Url": "https://arxiv.org/abs/2411.17933",
         "Highlight": "Leverages multimodal LLMs to perform UI test transfers without requiring source code access",
         "Code_Url": ""
+    },
+    {
+        "Name": "UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design",
+        "Platform": "Web platforms",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.12561",
+        "Highlight": "Enables LLM-powered automated usability testing by simulating thousands of user interactions, collecting both qualitative and quantitative data, and providing researchers with early feedback before real-user studies.",
+        "Code_Url": "https://uxagent.hailab.io"
+    },
+    {
+        "Name": "Guardian: A Runtime Framework for LLM-Based UI Exploration",
+        "Platform": "Mobile Android",
+        "Date": "September 2024",
+        "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3650212.3680334",
+        "Highlight": "Autonomously explores mobile applications, interacting with the UI to validate core functionalities.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "Test-Agent: A Multimodal App Automation Testing Framework Based on the Large Language Model",
+        "Platform": "Mobile Android, iOS, Harmony OS",
+        "Date": "October 2024",
+        "Paper_Url": "https://ieeexplore.ieee.org/abstract/document/10778901/",
+        "Highlight": "Eliminates the need for pre-written test scripts by leveraging LLMs and multimodal perception to generate and execute test cases automatically.",
+        "Code_Url": ""
     }
 ]
+

@@ -409,7 +409,7 @@
     },
     {
         "Name": "Beyond Pass or Fail: A Multi-dimensional Benchmark for Mobile UI Navigation",
-        "Platform": "Android",
+        "Platform": "Mobile Android",
         "Date": "January 2025",
         "Paper_Url": "https://arxiv.org/abs/2501.02863",
         "Highlight": "Provides a fully automated benchmarking suite and introduces a multi-dimensional evaluation framework.",
@@ -422,5 +422,37 @@
         "Paper_Url": "https://arxiv.org/abs/2502.08047",
         "Highlight": "First GUI benchmark designed to evaluate dynamic GUI interactions by incorporating various initial states.",
         "Code_Url": ""
+    },
+    {
+        "Name": "AEIA-MN: Evaluating the Robustness of Multimodal LLM-Powered Mobile Agents Against Active Environmental Injection Attacks",
+        "Platform": "Mobile Android",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.13053",
+        "Highlight": "Introduces the Active Environment Injection Attack (AEIA) framework that actively manipulates environmental elements (e.g., notifications) in mobile operating systems to mislead multimodal LLM-powered agents.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "WebGames: Challenging General-Purpose Web-Browsing AI Agents",
+        "Platform": "Web",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.18356",
+        "Highlight": "A comprehensive benchmark designed to evaluate the capabilities of general-purpose web-browsing AI agents through 50+ interactive challenges. It uniquely provides a hermetic testing environment with verifiable ground-truth solutions.",
+        "Code_Url": "https://github.com/convergence-ai/webgames"
+    },
+    {
+        "Name": "AutoEval: A Practical Framework for Autonomous Evaluation of Mobile Agents",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.02403",
+        "Highlight": "Introduces a fully autonomous evaluation framework for mobile agents, eliminating the need for manual task reward signal definition and extensive evaluation code development.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "SafeArena: Evaluating the Safety of Autonomous Web Agents",
+        "Platform": "Web",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.04957",
+        "Highlight": "The first benchmark specifically designed to evaluate the deliberate misuse of web agents by testing their ability to complete both safe and harmful tasks.",
+        "Code_Url": "https://safearena.github.io"
     }
 ]

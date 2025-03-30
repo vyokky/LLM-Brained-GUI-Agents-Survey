@@ -262,6 +262,14 @@
         "Paper_Url": "https://arxiv.org/abs/2404.16048",
         "Highlight": "Integrates images, action sequences, task descriptions, and spatial grounding into a unified dataset.",
         "Code_Url": "https://github.com/superagi/GUIDE"
+    },
+    {
+        "Name": "Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents",
+        "Platform": "Web",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.11357",
+        "Highlight": "Largest-scale web trajectory dataset to date; dynamically explores web pages to create contextually relevant tasks",
+        "Code_Url": ""
     }
     
 ]
