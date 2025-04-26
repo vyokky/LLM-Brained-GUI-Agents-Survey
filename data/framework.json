@@ -583,7 +583,103 @@
         "Paper_Url": "https://dl.acm.org/doi/abs/10.1145/3701551.3707420",
         "Highlight": "User-aligned task execution, where the agent adapts to individual user preferences in an ethical manner.",
         "Code_Url": "/"
+    },
+    {
+        "Name": "COLA: A Scalable Multi-Agent Framework For Windows UI Task Automation",
+        "Platform": "Windows computers",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.09263",
+        "Highlight": "Introduces a dynamic task scheduling mechanism with a plug-and-play agent pool, enabling adaptive handling of GUI tasks.",
+        "Code_Url": "https://github.com/Alokia/COLA-demo"
+    },
+    {
+        "Name": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks",
+        "Platform": "Web",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.09572",
+        "Highlight": "Decouples planning from execution in LLM-based GUI agents and introduces a scalable synthetic data generation pipeline to fine-tune each component.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "OS-Kairos: Adaptive Interaction for MLLM-Powered GUI Agents",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.16465",
+        "Highlight": "Introduces an adaptive interaction framework where each GUI action is paired with a confidence score, dynamically deciding between autonomous execution and human intervention.",
+        "Code_Url": "https://github.com/Wuzheng02/OS-Kairos"
+    },
+    {
+        "Name": "STEVE: AStep Verification Pipeline for Computer-use Agent Training",
+        "Platform": "Windows Desktop",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.12532",
+        "Highlight": "Introduces a scalable step verification pipeline using GPT-4o to generate binary labels for agent actions, and applies KTO optimization to incorporate both positive and negative actions into agent learning.",
+        "Code_Url": "https://github.com/FanbinLu/STEVE"
+    },
+    {
+        "Name": "V-Droid: Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.15937",
+        "Highlight": "Introduces a novel verifier-driven architecture where the LLM does not generate actions directly but instead scores and selects from a finite set of extracted actions, improving task success rates and significantly reducing latency.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.07079",
+        "Highlight": "Introduces a self-improvement framework for web agents that autonomously discover, synthesize, and refine reusable skill APIs through exploration.",
+        "Code_Url": "https://github.com/OSU-NLP-Group/SkillWeaver"
+    },
+    {
+        "Name": "Inducing Programmatic Skills for Agentic Tasks",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.06821",
+        "Highlight": "Introduces programmatic skills that are verified through execution to ensure quality and are used as callable actions to improve efficiency.",
+        "Code_Url": "https://github.com/zorazrw/agent-skill-induction"
+    },
+    {
+        "Name": "Enhancing Web Agents with Explicit Rollback Mechanisms",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.11788",
+        "Highlight": "Introduces a modular rollback mechanism that enables multi-step rollback to avoid dead-end states.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark",
+        "Platform": "Mobile Android",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.13805",
+        "Highlight": "Introduces a structured, demonstration-based learning pipeline for mobile GUI agents. It addresses long-tail generalization via few-shot demonstrations, achieving substantial performance gains on complex real-world mobile tasks.",
+        "Code_Url": "https://lgy0404.github.io/LearnAct"
+    },
+    {
+        "Name": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+        "Platform": "Ubuntu, Windows, Android",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.00906",
+        "Highlight": "Features a Mixture of Grounding technique and Proactive Hierarchical Planning, enabling more accurate grounding and adaptive replanning in long-horizon tasks.",
+        "Code_Url": "https://github.com/simular-ai/Agent-S"
+    },
+    {
+        "Name": "Guiding VLM Agents with Process Rewards at Inference Time for GUI Navigation",
+        "Platform": "Android and Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.16073",
+        "Highlight": "Introduces a novel process reward model that provides fine-grained, step-level feedback to enhance GUI task accuracy and success.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "UFO2: The Desktop AgentOS",
+        "Platform": "Windows desktops",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.14603",
+        "Highlight": "Transforms a conventional CUA into an OS-native, pluggable AgentOS with deep Windows integration, hybrid GUI–API actions, vision + UIA perception, speculative multi-action planning, retrieval-augmented knowledge, and a non-intrusive PiP virtual desktop.",
+        "Code_Url": "https://github.com/microsoft/UFO/"
     }
-
+    
 
 ]

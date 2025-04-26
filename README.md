@@ -46,7 +46,7 @@ If you find our work useful, please consider citing:
 
 The **[Searchable Paper Page](https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/)** is a web-based interface that allows you to search and filter through the papers in our survey. You can also view the papers by category, platform, and date.
 
-Last updated: **March 30th, 2025**.
+Last updated: **April 26th, 2025**.
 
 ---
 

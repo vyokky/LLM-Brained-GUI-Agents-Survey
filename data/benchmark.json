@@ -454,5 +454,63 @@
         "Paper_Url": "https://arxiv.org/abs/2503.04957",
         "Highlight": "The first benchmark specifically designed to evaluate the deliberate misuse of web agents by testing their ability to complete both safe and harmful tasks.",
         "Code_Url": "https://safearena.github.io"
+    },
+    {
+        "Name": "WABER: Web Agent Benchmarking for Efficiency and Reliability",
+        "Platform": "Web",
+        "Date": "2025",
+        "Paper_Url": "https://openreview.net/pdf?id=HY0VG19fHv",
+        "Highlight": "Introduces two new evaluation metrics—Efficiency and Reliability—that go beyond standard success rate measurements.",
+        "Code_Url": "https://github.com/SumanKNath/WABER"
+    },
+    {
+        "Name": "UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction",
+        "Platform": "Desktop (Windows, Linux)",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.15661",
+        "Highlight": "The first large-scale benchmark specifically designed for desktop GUI agents.",
+        "Code_Url": "https://uivision.github.io"
+    },
+    {
+        "Name": "An illusion of progress? assessing the current state of web agents",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.01382",
+        "Highlight": "A real-world online evaluation benchmark designed to reflect actual user interactions with live web interfaces.",
+        "Code_Url": "https://github.com/OSU-NLP-Group/Online-Mind2Web"
+    },
+    {
+        "Name": "AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents",
+        "Platform": "Web",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.09780",
+        "Highlight": "The first benchmark to evaluate privacy leakage risks in multimodal, realistic web environments using agentic models.",
+        "Code_Url": "https://github.com/facebookresearch/ai-agent-privacy"
+    },
+    {
+        "Name": "Computer Agent Arena: Compare & Test Computer Use Agents on Crowdsourced Real-World Tasks",
+        "Platform": "Windows, Ubuntu, macOS",
+        "Date": "2025",
+        "Paper_Url": "https://arena.xlang.ai/",
+        "Highlight": "The first large-scale, open-ended evaluation platform for multimodal LLM-based agents in real desktop computing environments.",
+        "Code_Url": "https://arena.xlang.ai/"
+    },
+    {
+        "Name": "REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.11543",
+        "Highlight": "Fully deterministic, high-fidelity replicas of real-world websites (e.g., Airbnb, Amazon, Gmail), enabling safe, reproducible, and configurable testing for multi-turn GUI-based agents.",
+        "Code_Url": "https://github.com/agi-inc/agisdk"
+    },
+    {
+        "Name": "BEARCUBS: A benchmark for computer-using web agents",
+        "Platform": "Web",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.07919",
+        "Highlight": "Emphasizes interaction with live web pages and includes multimodal tasks (e.g., video, audio, 3D) that cannot be solved by text-only methods, addressing limitations of prior benchmarks relying on static or simulated environments.",
+        "Code_Url": "https://bear-cubs.github.io"
     }
+    
+    
 ]

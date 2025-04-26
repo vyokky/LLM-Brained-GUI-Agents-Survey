@@ -366,6 +366,104 @@
         "Paper_Url": "https://arxiv.org/abs/2503.04730",
         "Highlight": "The first GUI grounding model specifically tailored for Windows.",
         "Code_Url": "https://github.com/zackhuiiiii/WinSpot"
+    },
+    {
+        "Name": "SpiritSight Agent: Advanced GUI Agent with One Look",
+        "Platform": "Web, Android, Windows Desktop",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.03196",
+        "Highlight": "Introduces a Universal Block Parsing (UBP) method to resolve positional ambiguity in high-resolution visual inputs.",
+        "Code_Url": "https://hzhiyuan.github.io/SpiritSight-Agent"
+    },
+    {
+        "Name": "Think Twice, Click Once: Enhancing GUI Grounding via Fast and Slow Systems",
+        "Platform": "Web, mobile applications, and desktop",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.06470",
+        "Highlight": "A dual-system GUI grounding architecture inspired by human cognition, dynamically switching between fast (intuitive) and slow (analytical) grounding modes based on task complexity.",
+        "Code_Url": "https://github.com/sugarandgugu/Focus"
+    },
+    {
+        "Name": "MP-GUI: Modality Perception with MLLMs for GUI Understanding",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.14021",
+        "Highlight": "Introduces a tri-perceiver architecture that models textual, graphical, and spatial modalities to enhance GUI reasoning.",
+        "Code_Url": "https://github.com/BigTaige/MP-GUI"
+    },
+    {
+        "Name": "UI-R1: Enhancing action prediction of gui agents by reinforcement learning",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.21620",
+        "Highlight": "Introduces a rule-based reinforcement learning approach using GRPO to enhance reasoning and action prediction in GUI tasks with only 136 examples.",
+        "Code_Url": "https://github.com/lll6gg/UI-R1"
+    },
+    {
+        "Name": "GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents",
+        "Platform": "Windows, Linux, MacOS, Android, and Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.10458",
+        "Highlight": "First framework to apply rule-based reinforcement learning (RFT) to high-level GUI tasks across platforms.",
+        "Code_Url": "https://github.com/ritzz-ai/GUI-R1.git"
+    },
+    {
+        "Name": "ScreenLLM: Stateful Screen Schema for Efficient Action Understanding and Prediction",
+        "Platform": "Desktop",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.20978",
+        "Highlight": "Introduces a novel stateful screen schema to compactly represent GUI interactions over time, enabling fine-grained understanding and accurate action prediction.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "Breaking the Data Barrier--Building GUI Agents Through Task Generalization",
+        "Platform": "Web and Android (Mobile)",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.10127",
+        "Highlight": "Introduces mid-training on diverse non-GUI reasoning tasks (particularly math and code) to substantially enhance GUI agent planning capabilities.",
+        "Code_Url": "https://github.com/hkust-nlp/GUIMid"
+    },
+    {
+        "Name": "AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.08942",
+        "Highlight": "The first benchmark to rigorously evaluate LLM-based judges against human expert annotations across multiple web agent tasks.",
+        "Code_Url": "https://agent-reward-bench.github.io"
+    },
+    {
+        "Name": "RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.10445",
+        "Highlight": "The first benchmark to evaluate long-horizon web assistance using real-world users’ sequential instructions expressed in natural and often ambiguous language.",
+        "Code_Url": "https://scai.cs.jhu.edu/projects/RealWebAssist/"
+    },
+    {
+        "Name": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+        "Platform": "Web, Desktop, and Android",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.14239",
+        "Highlight": "Two-stage training framework Actor2Reasoner: (1) Reasoning Injection via Spatial Reasoning Distillation, and (2) Deliberation Enhancement via Reinforcement Learning with Sub-goal Guidance and Error Recovery Scenario Construction.",
+        "Code_Url": "https://github.com/Reallm-Labs/InfiGUI-R1"
+    },
+    {
+        "Name": "UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis",
+        "Platform": "Web, Windows, and Android",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.11257",
+        "Highlight": "Introduces a three-stage synthetic data pipeline for GUI grounding with both explicit and implicit instruction synthesis.",
+        "Code_Url": "https://colmon46.github.io/i2e-bench-leaderboard/"
+    },
+    {
+        "Name": "ViMo: A Generative Visual GUI World Model for App Agent",
+        "Platform": "Mobile Android",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.13936",
+        "Highlight": "First GUI world model that predicts future visual GUI states.",
+        "Code_Url": "https://ai-agents-2030.github.io/ViMo/"
     }
+    
+    
+    
 ]
-

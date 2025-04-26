@@ -270,6 +270,64 @@
         "Paper_Url": "https://arxiv.org/abs/2502.11357",
         "Highlight": "Largest-scale web trajectory dataset to date; dynamically explores web pages to create contextually relevant tasks",
         "Code_Url": ""
+    },
+    {
+        "Name": "DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents",
+        "Platform": "Windows, macOS, and Linux desktops",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.11170",
+        "Highlight": "The first large-scale, open-source dataset focusing on real-world desktop GUI scenarios across multiple operating systems.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "FedMABench: Benchmarking Mobile Agents on Decentralized Heterogeneous User Data",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.05143",
+        "Highlight": "The first dataset designed to benchmark federated mobile GUI agents.",
+        "Code_Url": "https://github.com/wwh0411/FedMABench"
+    },
+    {
+        "Name": "Towards Internet-Scale Training For Agents",
+        "Platform": "Web",
+        "Date": "February 2025",
+        "Paper_Url": "https://arxiv.org/abs/2502.06776",
+        "Highlight": "Presents a fully automated three-stage data generation pipeline—task generation, action execution, and evaluation—using only language models without any human annotations.",
+        "Code_Url": "https://data-for-agents.github.io"
+    },
+    {
+        "Name": "GUI-Xplore: Empowering Generalizable GUI Agents with One Exploration",
+        "Platform": "Mobile Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.17709",
+        "Highlight": "Introduces an exploration-based pretraining paradigm that provides rich app-specific priors through video data.",
+        "Code_Url": "https://github.com/921112343/GUI-Xplore"
+    },
+    {
+        "Name": "Navi-plus: Managing Ambiguous GUI Navigation Tasks with Follow-up",
+        "Platform": "Web and Android",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.24180",
+        "Highlight": "Introduces a Self-Correction GUI Navigation task featuring the novel ASK action for recovering missing information.",
+        "Code_Url": ""
+    },
+    {
+        "Name": "Explorer: Robust Collection of Interactable GUI Elements",
+        "Platform": "Web and Android",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.09352",
+        "Highlight": "Platform-independent, supports auto-labeling, and enables trace recording and voice-controlled GUI navigation.",
+        "Code_Url": "https://github.com/varnelis/Explorer"
+    },
+    {
+        "Name": "PixelWeb: The First Web GUI Dataset with Pixel-Wise Labels",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.16419",
+        "Highlight": "The first GUI dataset to provide pixel-level annotations—including mask and contour—for web UIs, enabling high-precision GUI grounding and detection tasks.",
+        "Code_Url": "https://huggingface.co/datasets/cyberalchemist/PixelWeb"
     }
+    
+    
     
 ]

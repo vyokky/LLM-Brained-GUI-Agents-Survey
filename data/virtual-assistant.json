@@ -110,5 +110,14 @@
     "Paper_Url": "/",
     "Highlight": "Translates natural language descriptions of desired automations into executable workflows.",
     "Code_Url": "https://learn.microsoft.com/en-us/power-automate/desktop-flows/create-flow-using-ai-recorder"
-  }
+  },
+  {
+    "Name": "WebNav: An Intelligent Agent for Voice-Controlled Web Navigation",
+    "Platform": "Web",
+    "Date": "March 2025",
+    "Paper_Url": "https://arxiv.org/abs/2503.13843",
+    "Highlight": "Combines a ReAct-style reasoning loop, real-time DOM labeling, and voice-driven interaction to support intelligent web navigation for visually impaired users.",
+    "Code_Url": ""
+}
+
 ]
