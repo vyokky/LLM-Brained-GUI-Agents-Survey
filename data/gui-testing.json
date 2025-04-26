@@ -126,6 +126,46 @@
         "Paper_Url": "https://ieeexplore.ieee.org/abstract/document/10778901/",
         "Highlight": "Eliminates the need for pre-written test scripts by leveraging LLMs and multimodal perception to generate and execute test cases automatically.",
         "Code_Url": ""
-    }
+    },
+    {
+        "Name": "VLM-Fuzz: Vision Language Model Assisted Recursive Depth-first Search Exploration for Effective UI Testing of Android Apps",
+        "Platform": "Android (Mobile)",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.11675",
+        "Highlight": "",
+        "Code_Url": ""
+      },
+      {
+        "Name": "BugCraft: End-to-End Crash Bug Reproduction Using LLM Agents in Minecraft",
+        "Platform": "Windows Computer",
+        "Date": "March 2025",
+        "Paper_Url": "https://arxiv.org/abs/2503.20036",
+        "Highlight": "First end-to-end framework that automates crash bug reproduction in a complex open-world game (Minecraft) using LLM-driven agents, vision-based UI parsing, and structured action execution.",
+        "Code_Url": "https://bugcraft2025.github.io/"
+      },
+      {
+        "Name": "ReuseDroid: A VLM-empowered Android UI Test Migrator Boosted by Active Feedback",
+        "Platform": "Android (Mobile)",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.02357",
+        "Highlight": "Leverages visual contexts and dynamic feedback mechanisms to significantly boost migration success rates compared to prior mapping- and LLM-based methods.",
+        "Code_Url": ""
+      },
+      {
+        "Name": "Are Autonomous Web Agents Good Testers?",
+        "Platform": "Web",
+        "Date": "April 2025",
+        "Paper_Url": "https://arxiv.org/abs/2504.01495",
+        "Highlight": "First open-source attempt to adapt LLM-powered Autonomous Web Agents into Autonomous Test Agents (ATA) for web testing.",
+        "Code_Url": ""
+      },
+      {
+        "Name": "Automated Testing of the GUI of a Real-Life Engineering Software using Large Language Models",
+        "Platform": "Desktop (Windows/Linux)",
+        "Date": "2025",
+        "Paper_Url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10962502",
+        "Highlight": "Pioneers LLM-driven testing on real-world desktop GUI applications (not web or mobile), combining structured GUI parsing with LLM-based control and evaluation.",
+        "Code_Url": "https://github.com/DLR-SC/GERALLT"
+      }
 ]
 
