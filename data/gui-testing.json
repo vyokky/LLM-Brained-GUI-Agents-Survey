@@ -88,6 +88,14 @@
         "Code_Url": "https://github.com/sidongfeng/AdbGPT"
     },
     {
+        "Name": "Feedback-Driven Automated Whole Bug Report Reproduction for Android Apps",
+        "Platform": "Android",
+        "Date": "July 2024",
+        "Paper_Url": "https://doi.org/10.1145/3650212.368034",
+        "Highlight": "Uses feedback-driven LLM framework that reproduces Android bugs directly from full textual bug reports.",
+        "Code_Url": "https://github.com/datareviewtest/ReBL"
+    },
+    {
         "Name": "Improving Technical \"How-to\" Query Accuracy with Automated Search Results Verification and Reranking",
         "Platform": "Android",
         "Date": "April 2024",
