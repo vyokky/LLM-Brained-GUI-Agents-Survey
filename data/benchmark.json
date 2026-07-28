@@ -518,5 +518,13 @@
         "Paper_Url": "https://arxiv.org/abs/2505.19897",
         "Highlight": "A first-of-its-kind evaluation platform for multimodal agents in scientific workflows.",
         "Code_Url": "https://github.com/OS-Copilot/ScienceBoard"
+    },
+    {
+        "Name": "ClawBench: Can AI Agents Complete Everyday Online Tasks?",
+        "Platform": "Web",
+        "Date": "April 2026",
+        "Paper_Url": "https://arxiv.org/abs/2604.08523",
+        "Highlight": "Evaluates agents on 283 V1+V2 web tasks across 163 live websites while capturing replay, screenshots, HTTP traffic, browser actions, and agent messages.",
+        "Code_Url": "https://github.com/TIGER-AI-Lab/ClawBench"
     }
 ]
