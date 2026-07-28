@@ -524,7 +524,7 @@
         "Platform": "Web",
         "Date": "April 2026",
         "Paper_Url": "https://arxiv.org/abs/2604.08523",
-        "Highlight": "Evaluates agents on 153 live, consequential web tasks across 144 websites and 15 life domains while capturing replay, screenshots, HTTP traffic, browser actions, and agent messages.",
+        "Highlight": "Evaluates agents on 283 V1+V2 web tasks across 163 live websites while capturing replay, screenshots, HTTP traffic, browser actions, and agent messages.",
         "Code_Url": "https://github.com/TIGER-AI-Lab/ClawBench"
     }
 ]
